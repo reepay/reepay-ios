@@ -14,35 +14,34 @@ import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
 public protocol CheckoutStyleProtocol {
+  var mode: ReepayCheckoutSheet.Mode { get set }
+  var dismissable: Swift.Bool { get set }
   var hasDismissButton: Swift.Bool { get set }
   var dismissButtonColor: Swift.String { get set }
   var dismissButtonIcon: Swift.String? { get set }
   var bundleIdentifier: Swift.String? { get set }
 }
 public struct CheckoutStyle : ReepayCheckoutSheet.CheckoutStyleProtocol {
+  public var mode: ReepayCheckoutSheet.Mode
+  public var dismissable: Swift.Bool
   public var hasDismissButton: Swift.Bool
   public var dismissButtonColor: Swift.String
   public var dismissButtonIcon: Swift.String?
   public var bundleIdentifier: Swift.String?
-  public init(hasDismissButton: Swift.Bool, dismissButtonColor: Swift.String, dismissButtonIcon: Swift.String?, bundleIdentifier: Swift.String?)
   public init()
 }
 public protocol CheckoutConfigurationProtocol {
-  var mode: ReepayCheckoutSheet.Mode { get set }
   var sessionID: Swift.String { get set }
-  var acceptURL: Swift.String { get set }
-  var cancelURL: Swift.String { get set }
-  var dismissable: Swift.Bool { get set }
+  var acceptURL: Swift.String? { get set }
+  var cancelURL: Swift.String? { get set }
   var checkoutStyle: ReepayCheckoutSheet.CheckoutStyle { get set }
 }
 public struct CheckoutConfiguration : ReepayCheckoutSheet.CheckoutConfigurationProtocol {
-  public var mode: ReepayCheckoutSheet.Mode
   public var sessionID: Swift.String
-  public var acceptURL: Swift.String
-  public var cancelURL: Swift.String
-  public var dismissable: Swift.Bool
+  public var acceptURL: Swift.String?
+  public var cancelURL: Swift.String?
   public var checkoutStyle: ReepayCheckoutSheet.CheckoutStyle
-  public init(mode: ReepayCheckoutSheet.Mode, sessionID: Swift.String, acceptURL: Swift.String, cancelURL: Swift.String, dismissable: Swift.Bool, checkoutStyle: ReepayCheckoutSheet.CheckoutStyle? = nil)
+  public init?(sessionID: Swift.String, acceptURL: Swift.String? = nil, cancelURL: Swift.String? = nil, checkoutStyle: ReepayCheckoutSheet.CheckoutStyle? = .init())
 }
 public struct CheckoutEvent {
   public var state: ReepayCheckoutSheet.CheckoutState
