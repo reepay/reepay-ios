@@ -5217,44 +5217,44 @@
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/Helpers\/Environment.swift",
+      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/Helpers\/ReepayConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 138,
+      "offset": 136,
       "length": 26,
       "value": "\"http:\/\/localhost:4200\/#\/\""
     },
     {
-      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/Helpers\/Environment.swift",
+      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/Helpers\/ReepayConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 184,
+      "offset": 182,
       "length": 40,
       "value": "\"https:\/\/staging-checkout.reepay.com\/#\/\""
     },
     {
-      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/Helpers\/Environment.swift",
+      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/Helpers\/ReepayConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 247,
+      "offset": 245,
       "length": 32,
       "value": "\"https:\/\/checkout.reepay.com\/#\/\""
     },
     {
-      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/Helpers\/Environment.swift",
+      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/Helpers\/ReepayConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 138,
+      "offset": 136,
       "length": 26,
       "value": "\"http:\/\/localhost:4200\/#\/\""
     },
     {
-      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/Helpers\/Environment.swift",
+      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/Helpers\/ReepayConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 184,
+      "offset": 182,
       "length": 40,
       "value": "\"https:\/\/staging-checkout.reepay.com\/#\/\""
     },
     {
-      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/Helpers\/Environment.swift",
+      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/Helpers\/ReepayConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 247,
+      "offset": 245,
       "length": 32,
       "value": "\"https:\/\/checkout.reepay.com\/#\/\""
     }
