@@ -14,7 +14,7 @@ Pod::Spec.new do |spec|
   spec.social_media_url     = "https://www.linkedin.com/company/billwerkplus"
   spec.platform             = :ios, "15.0"
   # spec.source               = { :git => "https://github.com/reepay/reepay-ios.git", :tag => spec.version.to_s }
-  spec.source               = { :http => 'https://github.com/reepay/reepay-ios/archive/refs/tags/0.0.5.zip' } 
+  spec.source               = { :http => 'https://github.com/reepay/reepay-ios/archive/refs/tags/0.0.6.zip' } 
   spec.frameworks           = "Foundation", "Combine", "UIKit", "WebKit"
   spec.vendored_frameworks  = "ReepayCheckoutSheet/ReepayCheckoutSheet.xcframework"
   spec.requires_arc         = true
