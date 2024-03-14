@@ -14,6 +14,7 @@ import _StringProcessing
 import _SwiftConcurrencyShims
 public protocol CheckoutStyleProtocol {
   var mode: ReepayCheckoutSheet.Mode { get set }
+  var sheetHeightFraction: Swift.Double { get set }
   var prefersGrabberVisible: Swift.Bool { get set }
   var dismissable: Swift.Bool { get set }
   var hasDismissButton: Swift.Bool { get set }
@@ -42,6 +43,7 @@ public struct AlertStyle : ReepayCheckoutSheet.AlertStyleProtocol {
 }
 public struct CheckoutStyle : ReepayCheckoutSheet.CheckoutStyleProtocol {
   public var mode: ReepayCheckoutSheet.Mode
+  public var sheetHeightFraction: Swift.Double
   public var prefersGrabberVisible: Swift.Bool
   public var dismissable: Swift.Bool
   public var dismissAlertStyle: ReepayCheckoutSheet.AlertStyle?
@@ -64,16 +66,10 @@ public struct CheckoutConfiguration : ReepayCheckoutSheet.CheckoutConfigurationP
   public var checkoutStyle: ReepayCheckoutSheet.CheckoutStyle
   public init?(sessionID: Swift.String, acceptURL: Swift.String? = nil, cancelURL: Swift.String? = nil, checkoutStyle: ReepayCheckoutSheet.CheckoutStyle? = .init())
 }
-public struct CheckoutEvent {
-  public var state: ReepayCheckoutSheet.CheckoutState
-  public var completionUrl: Swift.String
-}
 public class CheckoutEventPublisher {
   final public let acceptEventPublisher: Combine.PassthroughSubject<ReepayCheckoutSheet.CheckoutEvent, Swift.Never>
   final public let cancelEventPublisher: Combine.PassthroughSubject<ReepayCheckoutSheet.CheckoutEvent, Swift.Never>
   public init()
-  public func sendAcceptEvent(completionUrl: Swift.String)
-  public func sendCancelEvent(completionUrl: Swift.String)
   @objc deinit
 }
 public enum CheckoutState {
@@ -98,6 +94,7 @@ public enum Mode : Swift.String {
   case largeSheet
   case fullScreenCover
   case mediumAndLargeSheet
+  case customSheet
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
@@ -115,6 +112,10 @@ public class CheckoutSheet {
   public func dismiss()
   public func destroy()
   @objc deinit
+}
+public struct CheckoutEvent {
+  public var state: ReepayCheckoutSheet.CheckoutState
+  public var completionUrl: Swift.String
 }
 extension ReepayCheckoutSheet.CheckoutState : Swift.Equatable {}
 extension ReepayCheckoutSheet.CheckoutState : Swift.Hashable {}
