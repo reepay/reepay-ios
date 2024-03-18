@@ -27,7 +27,7 @@ Get started with our [example projects](#examples), or [📘 browse the SDK refe
 
 - **Apple Pay**: We provide a [seamless integration with Apple Pay](https://docs.reepay.com/reference/apple-pay) through Reepay Checkout.
 
-- **SCA-ready**: The SDK automatically performs native 3D Secure authentication to comply with [Strong Customer Authentication](https://stripe.com/docs/strong-customer-authentication) regulation in Europe.
+- **SCA-ready**: The SDK automatically performs native 3D Secure authentication to comply with [Strong Customer Authentication](https://docs.reepay.com/reference/strong-customer-authentication) regulation in Europe.
 
 ## Releases
 
