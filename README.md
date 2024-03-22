@@ -41,15 +41,15 @@ If you're reading this on GitHub.com, please make sure you are looking at the [t
 
 ## Requirements
 
-The Reepay iOS SDK requires Xcode 14.1 or later and is compatible with apps targeting iOS 15 or above.
+The Reepay iOS SDK requires Xcode 14.1 or later and is compatible with iOS apps targeting iOS 15 or newer.
 
 ## Getting started
 
 ### Integration
 
-Get started by checking out our [example projects](/Example), or [📘 browse the SDK reference](https://docs.reepay.com/reference/reference-introduction) for fine-grained documentation of all the classes and methods in the SDK.
+Get started by checking out our example projects below, or [📘 browse the SDK reference](https://optimize-docs.billwerk.com/docs/checkout-sdk-for-ios) for fine-grained documentation of all the classes and methods in the SDK.
 
 ### Examples
 
-- [Reepay Checkout demo app](https://github.com/reepay/reepay-checkout-demo-app-swift)
+- [Reepay Checkout demo app](https://github.com/reepay/reepay-checkout-demo-app-ios-swift)
   - This demo app demonstrates how to build a checkout flow using CheckoutSheet, an embeddable component that currently supports card payments and Apple Pay payments with a single integration.

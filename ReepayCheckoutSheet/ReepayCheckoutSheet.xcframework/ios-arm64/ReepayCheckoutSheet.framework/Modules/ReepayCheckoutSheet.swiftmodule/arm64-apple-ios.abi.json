@@ -43,6 +43,9 @@
             "mangledName": "$s19ReepayCheckoutSheet0B13StyleProtocolP4modeAA4ModeOvp",
             "moduleName": "ReepayCheckoutSheet",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -854,6 +857,9 @@
             "mangledName": "$s19ReepayCheckoutSheet18AlertStyleProtocolP5titleSSvp",
             "moduleName": "ReepayCheckoutSheet",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -945,6 +951,9 @@
             "mangledName": "$s19ReepayCheckoutSheet18AlertStyleProtocolP7messageSSvp",
             "moduleName": "ReepayCheckoutSheet",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -1036,6 +1045,9 @@
             "mangledName": "$s19ReepayCheckoutSheet18AlertStyleProtocolP09preferredE0So017UIAlertControllerE0Vvp",
             "moduleName": "ReepayCheckoutSheet",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -1127,6 +1139,9 @@
             "mangledName": "$s19ReepayCheckoutSheet18AlertStyleProtocolP18dismissConfirmTextSSvp",
             "moduleName": "ReepayCheckoutSheet",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -1218,6 +1233,9 @@
             "mangledName": "$s19ReepayCheckoutSheet18AlertStyleProtocolP014dismissConfirmE0So013UIAlertActionE0Vvp",
             "moduleName": "ReepayCheckoutSheet",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -1309,6 +1327,9 @@
             "mangledName": "$s19ReepayCheckoutSheet18AlertStyleProtocolP17dismissCancelTextSSvp",
             "moduleName": "ReepayCheckoutSheet",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -1400,6 +1421,9 @@
             "mangledName": "$s19ReepayCheckoutSheet18AlertStyleProtocolP013dismissCancelE0So013UIAlertActionE0Vvp",
             "moduleName": "ReepayCheckoutSheet",
             "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
             "accessors": [
               {
                 "kind": "Accessor",
@@ -1506,7 +1530,8 @@
             "moduleName": "ReepayCheckoutSheet",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1591,7 +1616,8 @@
             "moduleName": "ReepayCheckoutSheet",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1676,7 +1702,8 @@
             "moduleName": "ReepayCheckoutSheet",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1761,7 +1788,8 @@
             "moduleName": "ReepayCheckoutSheet",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1846,7 +1874,8 @@
             "moduleName": "ReepayCheckoutSheet",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -1931,7 +1960,8 @@
             "moduleName": "ReepayCheckoutSheet",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2016,7 +2046,8 @@
             "moduleName": "ReepayCheckoutSheet",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2145,7 +2176,8 @@
             "moduleName": "ReepayCheckoutSheet",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2230,7 +2262,8 @@
             "moduleName": "ReepayCheckoutSheet",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2315,7 +2348,8 @@
             "moduleName": "ReepayCheckoutSheet",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2400,7 +2434,8 @@
             "moduleName": "ReepayCheckoutSheet",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2494,7 +2529,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2595,7 +2631,8 @@
             "moduleName": "ReepayCheckoutSheet",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2680,7 +2717,8 @@
             "moduleName": "ReepayCheckoutSheet",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2774,7 +2812,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -2884,7 +2923,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -3455,7 +3495,8 @@
             "moduleName": "ReepayCheckoutSheet",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -3549,7 +3590,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -3659,7 +3701,8 @@
             "declAttributes": [
               "HasInitialValue",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -3760,7 +3803,8 @@
             "moduleName": "ReepayCheckoutSheet",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -3981,7 +4025,8 @@
               "HasInitialValue",
               "Final",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -4058,7 +4103,8 @@
               "HasInitialValue",
               "Final",
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "isLet": true,
             "hasStorage": true,
@@ -4092,6 +4138,84 @@
                 "declKind": "Accessor",
                 "usr": "s:19ReepayCheckoutSheet0B14EventPublisherC06canceldE07Combine18PassthroughSubjectCyAA0bD0Vs5NeverOGvg",
                 "mangledName": "$s19ReepayCheckoutSheet0B14EventPublisherC06canceldE07Combine18PassthroughSubjectCyAA0bD0Vs5NeverOGvg",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "closeEventPublisher",
+            "printedName": "closeEventPublisher",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PassthroughSubject",
+                "printedName": "Combine.PassthroughSubject<ReepayCheckoutSheet.CheckoutEvent, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckoutEvent",
+                    "printedName": "ReepayCheckoutSheet.CheckoutEvent",
+                    "usr": "s:19ReepayCheckoutSheet0B5EventV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine18PassthroughSubjectC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19ReepayCheckoutSheet0B14EventPublisherC05closedE07Combine18PassthroughSubjectCyAA0bD0Vs5NeverOGvp",
+            "mangledName": "$s19ReepayCheckoutSheet0B14EventPublisherC05closedE07Combine18PassthroughSubjectCyAA0bD0Vs5NeverOGvp",
+            "moduleName": "ReepayCheckoutSheet",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PassthroughSubject",
+                    "printedName": "Combine.PassthroughSubject<ReepayCheckoutSheet.CheckoutEvent, Swift.Never>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckoutEvent",
+                        "printedName": "ReepayCheckoutSheet.CheckoutEvent",
+                        "usr": "s:19ReepayCheckoutSheet0B5EventV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ],
+                    "usr": "s:7Combine18PassthroughSubjectC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet0B14EventPublisherC05closedE07Combine18PassthroughSubjectCyAA0bD0Vs5NeverOGvg",
+                "mangledName": "$s19ReepayCheckoutSheet0B14EventPublisherC05closedE07Combine18PassthroughSubjectCyAA0bD0Vs5NeverOGvg",
                 "moduleName": "ReepayCheckoutSheet",
                 "implicit": true,
                 "declAttributes": [
@@ -4267,6 +4391,83 @@
             "usr": "s:19ReepayCheckoutSheet0B5StateO6cancelyA2CmF",
             "mangledName": "$s19ReepayCheckoutSheet0B5StateO6cancelyA2CmF",
             "moduleName": "ReepayCheckoutSheet"
+          },
+          {
+            "kind": "Var",
+            "name": "close",
+            "printedName": "close",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ReepayCheckoutSheet.CheckoutState.Type) -> ReepayCheckoutSheet.CheckoutState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CheckoutState",
+                    "printedName": "ReepayCheckoutSheet.CheckoutState",
+                    "usr": "s:19ReepayCheckoutSheet0B5StateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ReepayCheckoutSheet.CheckoutState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CheckoutState",
+                        "printedName": "ReepayCheckoutSheet.CheckoutState",
+                        "usr": "s:19ReepayCheckoutSheet0B5StateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19ReepayCheckoutSheet0B5StateO5closeyA2CmF",
+            "mangledName": "$s19ReepayCheckoutSheet0B5StateO5closeyA2CmF",
+            "moduleName": "ReepayCheckoutSheet"
+          },
+          {
+            "kind": "Var",
+            "name": "toString",
+            "printedName": "toString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19ReepayCheckoutSheet0B5StateO8toStringSSvp",
+            "mangledName": "$s19ReepayCheckoutSheet0B5StateO8toStringSSvp",
+            "moduleName": "ReepayCheckoutSheet",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet0B5StateO8toStringSSvg",
+                "mangledName": "$s19ReepayCheckoutSheet0B5StateO8toStringSSvg",
+                "moduleName": "ReepayCheckoutSheet",
+                "accessorKind": "get"
+              }
+            ]
           },
           {
             "kind": "Function",
@@ -5176,7 +5377,8 @@
             "moduleName": "ReepayCheckoutSheet",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [
@@ -5261,7 +5463,8 @@
             "moduleName": "ReepayCheckoutSheet",
             "declAttributes": [
               "HasStorage",
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "hasStorage": true,
             "accessors": [

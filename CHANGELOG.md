@@ -4,6 +4,12 @@
 
 - Xcode 14 is [no longer supported by Apple](https://developer.apple.com/news/upcoming-requirements/). Please upgrade to Xcode 15 or later.
 
+## 1.0.0 2024-03-22
+
+### CheckoutSheet
+
+- [Added] Add Close CheckoutEvent for handling sheet dismiss event
+
 ## 0.0.8 2024-03-14
 
 ### CheckoutSheet

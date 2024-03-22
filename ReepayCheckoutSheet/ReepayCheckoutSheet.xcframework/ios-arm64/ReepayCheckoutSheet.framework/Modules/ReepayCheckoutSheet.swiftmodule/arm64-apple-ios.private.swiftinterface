@@ -69,12 +69,17 @@ public struct CheckoutConfiguration : ReepayCheckoutSheet.CheckoutConfigurationP
 public class CheckoutEventPublisher {
   final public let acceptEventPublisher: Combine.PassthroughSubject<ReepayCheckoutSheet.CheckoutEvent, Swift.Never>
   final public let cancelEventPublisher: Combine.PassthroughSubject<ReepayCheckoutSheet.CheckoutEvent, Swift.Never>
+  final public let closeEventPublisher: Combine.PassthroughSubject<ReepayCheckoutSheet.CheckoutEvent, Swift.Never>
   public init()
   @objc deinit
 }
 public enum CheckoutState {
   case accept
   case cancel
+  case close
+  public var toString: Swift.String {
+    get
+  }
   public static func == (a: ReepayCheckoutSheet.CheckoutState, b: ReepayCheckoutSheet.CheckoutState) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
@@ -104,6 +109,7 @@ public enum Mode : Swift.String {
 @available(iOS 15.0, *)
 public class CheckoutSheet {
   public init(configuration: ReepayCheckoutSheet.CheckoutConfiguration)
+  @objc deinit
   @available(*, unavailable)
   required public init?(coder: Foundation.NSCoder)
   public func getCheckoutViewController() -> UIKit.UIViewController?
@@ -111,7 +117,6 @@ public class CheckoutSheet {
   public func present()
   public func dismiss()
   public func destroy()
-  @objc deinit
 }
 public struct CheckoutEvent {
   public var state: ReepayCheckoutSheet.CheckoutState
