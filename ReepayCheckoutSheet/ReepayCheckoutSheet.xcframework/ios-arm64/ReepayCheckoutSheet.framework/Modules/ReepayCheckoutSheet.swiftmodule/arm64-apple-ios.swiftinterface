@@ -12,54 +12,17 @@ import WebKit
 import _Concurrency
 import _StringProcessing
 import _SwiftConcurrencyShims
-public protocol CheckoutStyleProtocol {
-  var mode: ReepayCheckoutSheet.Mode { get set }
-  var sheetHeightFraction: Swift.Double { get set }
-  var prefersGrabberVisible: Swift.Bool { get set }
-  var dismissable: Swift.Bool { get set }
-  var hasDismissButton: Swift.Bool { get set }
-  var dismissButtonColor: Swift.String { get set }
-  var dismissButtonIcon: Swift.String? { get set }
-  var bundleIdentifier: Swift.String? { get set }
+public enum ButtonType : Swift.String {
+  case icon
+  case text
+  case iconText
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
 }
-public protocol AlertStyleProtocol {
-  var title: Swift.String { get set }
-  var message: Swift.String { get set }
-  var preferredStyle: UIKit.UIAlertController.Style { get set }
-  var dismissConfirmText: Swift.String { get set }
-  var dismissConfirmStyle: UIKit.UIAlertAction.Style { get set }
-  var dismissCancelText: Swift.String { get set }
-  var dismissCancelStyle: UIKit.UIAlertAction.Style { get set }
-}
-public struct AlertStyle : ReepayCheckoutSheet.AlertStyleProtocol {
-  public var title: Swift.String
-  public var message: Swift.String
-  public var preferredStyle: UIKit.UIAlertController.Style
-  public var dismissConfirmText: Swift.String
-  public var dismissConfirmStyle: UIKit.UIAlertAction.Style
-  public var dismissCancelText: Swift.String
-  public var dismissCancelStyle: UIKit.UIAlertAction.Style
-  public init()
-}
-public struct CheckoutStyle : ReepayCheckoutSheet.CheckoutStyleProtocol {
-  public var mode: ReepayCheckoutSheet.Mode
-  public var sheetHeightFraction: Swift.Double
-  public var prefersGrabberVisible: Swift.Bool
-  public var dismissable: Swift.Bool
-  public var dismissAlertStyle: ReepayCheckoutSheet.AlertStyle?
-  public var hasDismissButton: Swift.Bool
-  public var dismissButtonColor: Swift.String
-  public var dismissButtonIcon: Swift.String?
-  public var bundleIdentifier: Swift.String?
-  public init()
-}
-public protocol CheckoutConfigurationProtocol {
-  var sessionID: Swift.String { get set }
-  var acceptURL: Swift.String? { get set }
-  var cancelURL: Swift.String? { get set }
-  var checkoutStyle: ReepayCheckoutSheet.CheckoutStyle { get set }
-}
-public struct CheckoutConfiguration : ReepayCheckoutSheet.CheckoutConfigurationProtocol {
+public struct CheckoutConfiguration {
   public var sessionID: Swift.String
   public var acceptURL: Swift.String?
   public var cancelURL: Swift.String?
@@ -67,16 +30,60 @@ public struct CheckoutConfiguration : ReepayCheckoutSheet.CheckoutConfigurationP
   public init?(sessionID: Swift.String, acceptURL: Swift.String? = nil, cancelURL: Swift.String? = nil, checkoutStyle: ReepayCheckoutSheet.CheckoutStyle? = .init())
 }
 public class CheckoutEventPublisher {
-  final public let acceptEventPublisher: Combine.PassthroughSubject<ReepayCheckoutSheet.CheckoutEvent, Swift.Never>
-  final public let cancelEventPublisher: Combine.PassthroughSubject<ReepayCheckoutSheet.CheckoutEvent, Swift.Never>
-  final public let closeEventPublisher: Combine.PassthroughSubject<ReepayCheckoutSheet.CheckoutEvent, Swift.Never>
+  public static let initEventPublisher: Combine.PassthroughSubject<ReepayCheckoutSheet.CheckoutEvent, Swift.Never>
+  public static let acceptEventPublisher: Combine.PassthroughSubject<ReepayCheckoutSheet.CheckoutEvent, Swift.Never>
+  public static let cancelEventPublisher: Combine.PassthroughSubject<ReepayCheckoutSheet.CheckoutEvent, Swift.Never>
+  public static let closeEventPublisher: Combine.PassthroughSubject<ReepayCheckoutSheet.CheckoutEvent, Swift.Never>
+  public static let errorEventPublisher: Combine.PassthroughSubject<ReepayCheckoutSheet.CheckoutEvent, Swift.Never>
+  public static let eventPublisher: Combine.PassthroughSubject<ReepayCheckoutSheet.CheckoutEvent, Swift.Never>
   public init()
   @objc deinit
 }
+public struct IconStyle {
+  public var color: Swift.String
+  public var position: ReepayCheckoutSheet.HorizontalPosition
+  public var padding: CoreFoundation.CGFloat
+  public var size: CoreFoundation.CGSize
+  public var bundleIdentifier: Swift.String?
+  public var name: Swift.String?
+  public init()
+}
+public struct TextStyle {
+  public var color: Swift.String
+  public var font: UIKit.UIFont
+  public init(text: Swift.String)
+  public init(text: Swift.String, size: CoreFoundation.CGFloat?, weight: UIKit.UIFont.Weight?)
+  public func getText() -> Swift.String
+}
+public struct CheckoutStyle {
+  public var mode: ReepayCheckoutSheet.Mode
+  public var sheetHeightFraction: Swift.Double
+  public var sheetBackgroundColor: Swift.String
+  public var prefersGrabberVisible: Swift.Bool
+  public var hideHeader: Swift.Bool
+  public var dismissable: Swift.Bool
+  public var dismissAlertStyle: ReepayCheckoutSheet.AlertStyle?
+  public var dismissButtonStyle: ReepayCheckoutSheet.ButtonStyle?
+  public init()
+}
+public struct ButtonStyle {
+  public var horizontalPosition: ReepayCheckoutSheet.HorizontalPosition
+  public var verticalPosition: ReepayCheckoutSheet.VerticalPosition
+  public var frame: CoreFoundation.CGRect
+  public var frameCornerRadius: Swift.Float
+  public var bottomPadding: CoreFoundation.CGFloat
+  public var backgroundColor: Swift.String?
+  public var iconStyle: ReepayCheckoutSheet.IconStyle
+  public var textStyle: ReepayCheckoutSheet.TextStyle
+  public init(type: ReepayCheckoutSheet.ButtonType)
+  public func getType() -> ReepayCheckoutSheet.ButtonType
+}
 public enum CheckoutState {
+  case `init`
   case accept
   case cancel
   case close
+  case error
   public var toString: Swift.String {
     get
   }
@@ -91,6 +98,15 @@ public enum TokenValidationError : Swift.Error {
   public static func == (a: ReepayCheckoutSheet.TokenValidationError, b: ReepayCheckoutSheet.TokenValidationError) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum VerticalPosition : Swift.String {
+  case above
+  case overlap
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
     get
   }
 }
@@ -113,19 +129,48 @@ public class CheckoutSheet {
   @available(*, unavailable)
   required public init?(coder: Foundation.NSCoder)
   public func getCheckoutViewController() -> UIKit.UIViewController?
-  public func getCheckoutEventPublisher() -> ReepayCheckoutSheet.CheckoutEventPublisher
+  public func getCheckoutEventPublisher() -> ReepayCheckoutSheet.CheckoutEventPublisher.Type
   public func present()
   public func dismiss()
   public func destroy()
+}
+public struct AlertStyle {
+  public var title: Swift.String
+  public var message: Swift.String
+  public var preferredStyle: UIKit.UIAlertController.Style
+  public var dismissConfirmText: Swift.String
+  public var dismissConfirmStyle: UIKit.UIAlertAction.Style
+  public var dismissCancelText: Swift.String
+  public var dismissCancelStyle: UIKit.UIAlertAction.Style
+  public init()
 }
 public struct CheckoutEvent {
   public var state: ReepayCheckoutSheet.CheckoutState
   public var completionUrl: Swift.String
 }
+public enum HorizontalPosition : Swift.String {
+  case left
+  case center
+  case right
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension ReepayCheckoutSheet.ButtonType : Swift.Equatable {}
+extension ReepayCheckoutSheet.ButtonType : Swift.Hashable {}
+extension ReepayCheckoutSheet.ButtonType : Swift.RawRepresentable {}
 extension ReepayCheckoutSheet.CheckoutState : Swift.Equatable {}
 extension ReepayCheckoutSheet.CheckoutState : Swift.Hashable {}
 extension ReepayCheckoutSheet.TokenValidationError : Swift.Equatable {}
 extension ReepayCheckoutSheet.TokenValidationError : Swift.Hashable {}
+extension ReepayCheckoutSheet.VerticalPosition : Swift.Equatable {}
+extension ReepayCheckoutSheet.VerticalPosition : Swift.Hashable {}
+extension ReepayCheckoutSheet.VerticalPosition : Swift.RawRepresentable {}
 extension ReepayCheckoutSheet.Mode : Swift.Equatable {}
 extension ReepayCheckoutSheet.Mode : Swift.Hashable {}
 extension ReepayCheckoutSheet.Mode : Swift.RawRepresentable {}
+extension ReepayCheckoutSheet.HorizontalPosition : Swift.Equatable {}
+extension ReepayCheckoutSheet.HorizontalPosition : Swift.Hashable {}
+extension ReepayCheckoutSheet.HorizontalPosition : Swift.RawRepresentable {}
