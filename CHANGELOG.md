@@ -13,7 +13,7 @@
 - [Added] Add ButtonStyle for customizing sheet dismiss button
 - [Added] Add IconStyle for customizing sheet dimiss button icon
 - [Added] Add TextStyle for customizing sheet dismiss button text
-- [Added] Add hide header option to hide Checkout header
+- [Added] Add hide header option on Checkout
 - [Updated] Update Accept and Cancel URL to be optional parameters when configuring CheckoutSheet
 
 ## 1.0.0 2024-03-22
