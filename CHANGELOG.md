@@ -4,6 +4,18 @@
 
 - Xcode 14 is [no longer supported by Apple](https://developer.apple.com/news/upcoming-requirements/). Please upgrade to Xcode 15 or later.
 
+## 1.1.0 2024-06-03
+
+### CheckoutSheet
+
+- [Added] Add Init CheckoutEvent for notifying checkout session finish loading in the sheet
+- [Added] Add Error CheckoutEvent for handling checkout session error event
+- [Added] Add ButtonStyle for customizing sheet dismiss button
+- [Added] Add IconStyle for customizing sheet dimiss button icon
+- [Added] Add TextStyle for customizing sheet dismiss button text
+- [Added] Add hide header option on Checkout
+- [Updated] Update Accept and Cancel URL to be optional parameters when configuring CheckoutSheet
+
 ## 1.0.0 2024-03-22
 
 ### CheckoutSheet
