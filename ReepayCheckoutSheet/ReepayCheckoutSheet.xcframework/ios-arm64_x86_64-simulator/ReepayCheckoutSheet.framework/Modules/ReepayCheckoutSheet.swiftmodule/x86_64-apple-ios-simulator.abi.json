@@ -758,6 +758,293 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ReepayCheckoutSheet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "SheetDismissable",
+        "printedName": "SheetDismissable",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "always",
+            "printedName": "always",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ReepayCheckoutSheet.SheetDismissable.Type) -> ReepayCheckoutSheet.SheetDismissable",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SheetDismissable",
+                    "printedName": "ReepayCheckoutSheet.SheetDismissable",
+                    "usr": "s:19ReepayCheckoutSheet0C11DismissableO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ReepayCheckoutSheet.SheetDismissable.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SheetDismissable",
+                        "printedName": "ReepayCheckoutSheet.SheetDismissable",
+                        "usr": "s:19ReepayCheckoutSheet0C11DismissableO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19ReepayCheckoutSheet0C11DismissableO6alwaysyA2CmF",
+            "mangledName": "$s19ReepayCheckoutSheet0C11DismissableO6alwaysyA2CmF",
+            "moduleName": "ReepayCheckoutSheet"
+          },
+          {
+            "kind": "Var",
+            "name": "withAlert",
+            "printedName": "withAlert",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ReepayCheckoutSheet.SheetDismissable.Type) -> ReepayCheckoutSheet.SheetDismissable",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SheetDismissable",
+                    "printedName": "ReepayCheckoutSheet.SheetDismissable",
+                    "usr": "s:19ReepayCheckoutSheet0C11DismissableO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ReepayCheckoutSheet.SheetDismissable.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SheetDismissable",
+                        "printedName": "ReepayCheckoutSheet.SheetDismissable",
+                        "usr": "s:19ReepayCheckoutSheet0C11DismissableO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19ReepayCheckoutSheet0C11DismissableO9withAlertyA2CmF",
+            "mangledName": "$s19ReepayCheckoutSheet0C11DismissableO9withAlertyA2CmF",
+            "moduleName": "ReepayCheckoutSheet"
+          },
+          {
+            "kind": "Var",
+            "name": "withAlertOnChanges",
+            "printedName": "withAlertOnChanges",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ReepayCheckoutSheet.SheetDismissable.Type) -> ReepayCheckoutSheet.SheetDismissable",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SheetDismissable",
+                    "printedName": "ReepayCheckoutSheet.SheetDismissable",
+                    "usr": "s:19ReepayCheckoutSheet0C11DismissableO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ReepayCheckoutSheet.SheetDismissable.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SheetDismissable",
+                        "printedName": "ReepayCheckoutSheet.SheetDismissable",
+                        "usr": "s:19ReepayCheckoutSheet0C11DismissableO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19ReepayCheckoutSheet0C11DismissableO18withAlertOnChangesyA2CmF",
+            "mangledName": "$s19ReepayCheckoutSheet0C11DismissableO18withAlertOnChangesyA2CmF",
+            "moduleName": "ReepayCheckoutSheet"
+          },
+          {
+            "kind": "Var",
+            "name": "toString",
+            "printedName": "toString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19ReepayCheckoutSheet0C11DismissableO8toStringSSvp",
+            "mangledName": "$s19ReepayCheckoutSheet0C11DismissableO8toStringSSvp",
+            "moduleName": "ReepayCheckoutSheet",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet0C11DismissableO8toStringSSvg",
+                "mangledName": "$s19ReepayCheckoutSheet0C11DismissableO8toStringSSvg",
+                "moduleName": "ReepayCheckoutSheet",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SheetDismissable",
+                "printedName": "ReepayCheckoutSheet.SheetDismissable",
+                "usr": "s:19ReepayCheckoutSheet0C11DismissableO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "SheetDismissable",
+                "printedName": "ReepayCheckoutSheet.SheetDismissable",
+                "usr": "s:19ReepayCheckoutSheet0C11DismissableO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19ReepayCheckoutSheet0C11DismissableO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s19ReepayCheckoutSheet0C11DismissableO2eeoiySbAC_ACtFZ",
+            "moduleName": "ReepayCheckoutSheet",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19ReepayCheckoutSheet0C11DismissableO9hashValueSivp",
+            "mangledName": "$s19ReepayCheckoutSheet0C11DismissableO9hashValueSivp",
+            "moduleName": "ReepayCheckoutSheet",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet0C11DismissableO9hashValueSivg",
+                "mangledName": "$s19ReepayCheckoutSheet0C11DismissableO9hashValueSivg",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19ReepayCheckoutSheet0C11DismissableO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s19ReepayCheckoutSheet0C11DismissableO4hash4intoys6HasherVz_tF",
+            "moduleName": "ReepayCheckoutSheet",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19ReepayCheckoutSheet0C11DismissableO",
+        "mangledName": "$s19ReepayCheckoutSheet0C11DismissableO",
+        "moduleName": "ReepayCheckoutSheet",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
         "declKind": "Import",
@@ -1948,6 +2235,157 @@
       },
       {
         "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "ReepayCheckoutSheet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ReepayCheckoutSheet"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserEventPublisher",
+        "printedName": "UserEventPublisher",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "eventPublisher",
+            "printedName": "eventPublisher",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "PassthroughSubject",
+                "printedName": "Combine.PassthroughSubject<ReepayCheckoutSheet.UserEvent, Swift.Never>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserEvent",
+                    "printedName": "ReepayCheckoutSheet.UserEvent",
+                    "usr": "s:19ReepayCheckoutSheet9UserEventV"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Never",
+                    "printedName": "Swift.Never",
+                    "usr": "s:s5NeverO"
+                  }
+                ],
+                "usr": "s:7Combine18PassthroughSubjectC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19ReepayCheckoutSheet18UserEventPublisherC05eventF07Combine18PassthroughSubjectCyAA0dE0Vs5NeverOGvpZ",
+            "mangledName": "$s19ReepayCheckoutSheet18UserEventPublisherC05eventF07Combine18PassthroughSubjectCyAA0dE0Vs5NeverOGvpZ",
+            "moduleName": "ReepayCheckoutSheet",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "PassthroughSubject",
+                    "printedName": "Combine.PassthroughSubject<ReepayCheckoutSheet.UserEvent, Swift.Never>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UserEvent",
+                        "printedName": "ReepayCheckoutSheet.UserEvent",
+                        "usr": "s:19ReepayCheckoutSheet9UserEventV"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Never",
+                        "printedName": "Swift.Never",
+                        "usr": "s:s5NeverO"
+                      }
+                    ],
+                    "usr": "s:7Combine18PassthroughSubjectC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet18UserEventPublisherC05eventF07Combine18PassthroughSubjectCyAA0dE0Vs5NeverOGvgZ",
+                "mangledName": "$s19ReepayCheckoutSheet18UserEventPublisherC05eventF07Combine18PassthroughSubjectCyAA0dE0Vs5NeverOGvgZ",
+                "moduleName": "ReepayCheckoutSheet",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserEventPublisher",
+                "printedName": "ReepayCheckoutSheet.UserEventPublisher",
+                "usr": "s:19ReepayCheckoutSheet18UserEventPublisherC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19ReepayCheckoutSheet18UserEventPublisherCACycfc",
+            "mangledName": "$s19ReepayCheckoutSheet18UserEventPublisherCACycfc",
+            "moduleName": "ReepayCheckoutSheet",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:19ReepayCheckoutSheet18UserEventPublisherC",
+        "mangledName": "$s19ReepayCheckoutSheet18UserEventPublisherC",
+        "moduleName": "ReepayCheckoutSheet",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ReepayCheckoutSheet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ReepayCheckoutSheet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1986,6 +2424,16 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "ReepayCheckoutSheet"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ReepayCheckoutSheet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -2771,19 +3219,19 @@
           },
           {
             "kind": "Var",
-            "name": "dismissable",
-            "printedName": "dismissable",
+            "name": "sheetDismissable",
+            "printedName": "sheetDismissable",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "Bool",
-                "printedName": "Swift.Bool",
-                "usr": "s:Sb"
+                "name": "SheetDismissable",
+                "printedName": "ReepayCheckoutSheet.SheetDismissable",
+                "usr": "s:19ReepayCheckoutSheet0C11DismissableO"
               }
             ],
             "declKind": "Var",
-            "usr": "s:19ReepayCheckoutSheet0B5StyleV11dismissableSbvp",
-            "mangledName": "$s19ReepayCheckoutSheet0B5StyleV11dismissableSbvp",
+            "usr": "s:19ReepayCheckoutSheet0B5StyleV16sheetDismissableAA0cF0Ovp",
+            "mangledName": "$s19ReepayCheckoutSheet0B5StyleV16sheetDismissableAA0cF0Ovp",
             "moduleName": "ReepayCheckoutSheet",
             "declAttributes": [
               "HasStorage",
@@ -2799,14 +3247,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
+                    "name": "SheetDismissable",
+                    "printedName": "ReepayCheckoutSheet.SheetDismissable",
+                    "usr": "s:19ReepayCheckoutSheet0C11DismissableO"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19ReepayCheckoutSheet0B5StyleV11dismissableSbvg",
-                "mangledName": "$s19ReepayCheckoutSheet0B5StyleV11dismissableSbvg",
+                "usr": "s:19ReepayCheckoutSheet0B5StyleV16sheetDismissableAA0cF0Ovg",
+                "mangledName": "$s19ReepayCheckoutSheet0B5StyleV16sheetDismissableAA0cF0Ovg",
                 "moduleName": "ReepayCheckoutSheet",
                 "implicit": true,
                 "accessorKind": "get"
@@ -2823,14 +3271,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "Bool",
-                    "printedName": "Swift.Bool",
-                    "usr": "s:Sb"
+                    "name": "SheetDismissable",
+                    "printedName": "ReepayCheckoutSheet.SheetDismissable",
+                    "usr": "s:19ReepayCheckoutSheet0C11DismissableO"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19ReepayCheckoutSheet0B5StyleV11dismissableSbvs",
-                "mangledName": "$s19ReepayCheckoutSheet0B5StyleV11dismissableSbvs",
+                "usr": "s:19ReepayCheckoutSheet0B5StyleV16sheetDismissableAA0cF0Ovs",
+                "mangledName": "$s19ReepayCheckoutSheet0B5StyleV16sheetDismissableAA0cF0Ovs",
                 "moduleName": "ReepayCheckoutSheet",
                 "implicit": true,
                 "accessorKind": "set"
@@ -2847,8 +3295,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19ReepayCheckoutSheet0B5StyleV11dismissableSbvM",
-                "mangledName": "$s19ReepayCheckoutSheet0B5StyleV11dismissableSbvM",
+                "usr": "s:19ReepayCheckoutSheet0B5StyleV16sheetDismissableAA0cF0OvM",
+                "mangledName": "$s19ReepayCheckoutSheet0B5StyleV16sheetDismissableAA0cF0OvM",
                 "moduleName": "ReepayCheckoutSheet",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -3914,6 +4362,357 @@
       },
       {
         "kind": "TypeDecl",
+        "name": "SessionState",
+        "printedName": "SessionState",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "PAYMENT_METHOD_ALREADY_ADDED",
+            "printedName": "PAYMENT_METHOD_ALREADY_ADDED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ReepayCheckoutSheet.SessionState.Type) -> ReepayCheckoutSheet.SessionState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SessionState",
+                    "printedName": "ReepayCheckoutSheet.SessionState",
+                    "usr": "s:19ReepayCheckoutSheet12SessionStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ReepayCheckoutSheet.SessionState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SessionState",
+                        "printedName": "ReepayCheckoutSheet.SessionState",
+                        "usr": "s:19ReepayCheckoutSheet12SessionStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19ReepayCheckoutSheet12SessionStateO28PAYMENT_METHOD_ALREADY_ADDEDyA2CmF",
+            "mangledName": "$s19ReepayCheckoutSheet12SessionStateO28PAYMENT_METHOD_ALREADY_ADDEDyA2CmF",
+            "moduleName": "ReepayCheckoutSheet"
+          },
+          {
+            "kind": "Var",
+            "name": "INVOICE_ALREADY_PAID",
+            "printedName": "INVOICE_ALREADY_PAID",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ReepayCheckoutSheet.SessionState.Type) -> ReepayCheckoutSheet.SessionState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SessionState",
+                    "printedName": "ReepayCheckoutSheet.SessionState",
+                    "usr": "s:19ReepayCheckoutSheet12SessionStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ReepayCheckoutSheet.SessionState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SessionState",
+                        "printedName": "ReepayCheckoutSheet.SessionState",
+                        "usr": "s:19ReepayCheckoutSheet12SessionStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19ReepayCheckoutSheet12SessionStateO20INVOICE_ALREADY_PAIDyA2CmF",
+            "mangledName": "$s19ReepayCheckoutSheet12SessionStateO20INVOICE_ALREADY_PAIDyA2CmF",
+            "moduleName": "ReepayCheckoutSheet"
+          },
+          {
+            "kind": "Var",
+            "name": "INVOICE_PROCESSING",
+            "printedName": "INVOICE_PROCESSING",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ReepayCheckoutSheet.SessionState.Type) -> ReepayCheckoutSheet.SessionState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SessionState",
+                    "printedName": "ReepayCheckoutSheet.SessionState",
+                    "usr": "s:19ReepayCheckoutSheet12SessionStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ReepayCheckoutSheet.SessionState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SessionState",
+                        "printedName": "ReepayCheckoutSheet.SessionState",
+                        "usr": "s:19ReepayCheckoutSheet12SessionStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19ReepayCheckoutSheet12SessionStateO18INVOICE_PROCESSINGyA2CmF",
+            "mangledName": "$s19ReepayCheckoutSheet12SessionStateO18INVOICE_PROCESSINGyA2CmF",
+            "moduleName": "ReepayCheckoutSheet"
+          },
+          {
+            "kind": "Var",
+            "name": "SUCCESS",
+            "printedName": "SUCCESS",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ReepayCheckoutSheet.SessionState.Type) -> ReepayCheckoutSheet.SessionState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SessionState",
+                    "printedName": "ReepayCheckoutSheet.SessionState",
+                    "usr": "s:19ReepayCheckoutSheet12SessionStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ReepayCheckoutSheet.SessionState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SessionState",
+                        "printedName": "ReepayCheckoutSheet.SessionState",
+                        "usr": "s:19ReepayCheckoutSheet12SessionStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19ReepayCheckoutSheet12SessionStateO7SUCCESSyA2CmF",
+            "mangledName": "$s19ReepayCheckoutSheet12SessionStateO7SUCCESSyA2CmF",
+            "moduleName": "ReepayCheckoutSheet"
+          },
+          {
+            "kind": "Var",
+            "name": "SESSION_EXPIRED",
+            "printedName": "SESSION_EXPIRED",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ReepayCheckoutSheet.SessionState.Type) -> ReepayCheckoutSheet.SessionState",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SessionState",
+                    "printedName": "ReepayCheckoutSheet.SessionState",
+                    "usr": "s:19ReepayCheckoutSheet12SessionStateO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ReepayCheckoutSheet.SessionState.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "SessionState",
+                        "printedName": "ReepayCheckoutSheet.SessionState",
+                        "usr": "s:19ReepayCheckoutSheet12SessionStateO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19ReepayCheckoutSheet12SessionStateO15SESSION_EXPIREDyA2CmF",
+            "mangledName": "$s19ReepayCheckoutSheet12SessionStateO15SESSION_EXPIREDyA2CmF",
+            "moduleName": "ReepayCheckoutSheet"
+          },
+          {
+            "kind": "Var",
+            "name": "toString",
+            "printedName": "toString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19ReepayCheckoutSheet12SessionStateO8toStringSSvp",
+            "mangledName": "$s19ReepayCheckoutSheet12SessionStateO8toStringSSvp",
+            "moduleName": "ReepayCheckoutSheet",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet12SessionStateO8toStringSSvg",
+                "mangledName": "$s19ReepayCheckoutSheet12SessionStateO8toStringSSvg",
+                "moduleName": "ReepayCheckoutSheet",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ReepayCheckoutSheet.SessionState?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "SessionState",
+                    "printedName": "ReepayCheckoutSheet.SessionState",
+                    "usr": "s:19ReepayCheckoutSheet12SessionStateO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19ReepayCheckoutSheet12SessionStateO8rawValueACSgSS_tcfc",
+            "mangledName": "$s19ReepayCheckoutSheet12SessionStateO8rawValueACSgSS_tcfc",
+            "moduleName": "ReepayCheckoutSheet",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19ReepayCheckoutSheet12SessionStateO8rawValueSSvp",
+            "mangledName": "$s19ReepayCheckoutSheet12SessionStateO8rawValueSSvp",
+            "moduleName": "ReepayCheckoutSheet",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet12SessionStateO8rawValueSSvg",
+                "mangledName": "$s19ReepayCheckoutSheet12SessionStateO8rawValueSSvg",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19ReepayCheckoutSheet12SessionStateO",
+        "mangledName": "$s19ReepayCheckoutSheet12SessionStateO",
+        "moduleName": "ReepayCheckoutSheet",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
         "name": "CheckoutState",
         "printedName": "CheckoutState",
         "children": [
@@ -4311,12 +5110,977 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ReepayCheckoutSheet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserAction",
+        "printedName": "UserAction",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "cardInputChange",
+            "printedName": "cardInputChange",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(ReepayCheckoutSheet.UserAction.Type) -> ReepayCheckoutSheet.UserAction",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserAction",
+                    "printedName": "ReepayCheckoutSheet.UserAction",
+                    "usr": "s:19ReepayCheckoutSheet10UserActionO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "ReepayCheckoutSheet.UserAction.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UserAction",
+                        "printedName": "ReepayCheckoutSheet.UserAction",
+                        "usr": "s:19ReepayCheckoutSheet10UserActionO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:19ReepayCheckoutSheet10UserActionO15cardInputChangeyA2CmF",
+            "mangledName": "$s19ReepayCheckoutSheet10UserActionO15cardInputChangeyA2CmF",
+            "moduleName": "ReepayCheckoutSheet"
+          },
+          {
+            "kind": "Var",
+            "name": "toString",
+            "printedName": "toString",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19ReepayCheckoutSheet10UserActionO8toStringSSvp",
+            "mangledName": "$s19ReepayCheckoutSheet10UserActionO8toStringSSvp",
+            "moduleName": "ReepayCheckoutSheet",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet10UserActionO8toStringSSvg",
+                "mangledName": "$s19ReepayCheckoutSheet10UserActionO8toStringSSvg",
+                "moduleName": "ReepayCheckoutSheet",
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "==",
+            "printedName": "==(_:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UserAction",
+                "printedName": "ReepayCheckoutSheet.UserAction",
+                "usr": "s:19ReepayCheckoutSheet10UserActionO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UserAction",
+                "printedName": "ReepayCheckoutSheet.UserAction",
+                "usr": "s:19ReepayCheckoutSheet10UserActionO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19ReepayCheckoutSheet10UserActionO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s19ReepayCheckoutSheet10UserActionO2eeoiySbAC_ACtFZ",
+            "moduleName": "ReepayCheckoutSheet",
+            "static": true,
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "hashValue",
+            "printedName": "hashValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19ReepayCheckoutSheet10UserActionO9hashValueSivp",
+            "mangledName": "$s19ReepayCheckoutSheet10UserActionO9hashValueSivp",
+            "moduleName": "ReepayCheckoutSheet",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet10UserActionO9hashValueSivg",
+                "mangledName": "$s19ReepayCheckoutSheet10UserActionO9hashValueSivg",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "hash",
+            "printedName": "hash(into:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Hasher",
+                "printedName": "Swift.Hasher",
+                "paramValueOwnership": "InOut",
+                "usr": "s:s6HasherV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19ReepayCheckoutSheet10UserActionO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s19ReepayCheckoutSheet10UserActionO4hash4intoys6HasherVz_tF",
+            "moduleName": "ReepayCheckoutSheet",
+            "implicit": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:19ReepayCheckoutSheet10UserActionO",
+        "mangledName": "$s19ReepayCheckoutSheet10UserActionO",
+        "moduleName": "ReepayCheckoutSheet",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "ReepayCheckoutSheet",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ReepayCheckoutSheet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EventMessageData",
+        "printedName": "EventMessageData",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "id",
+            "printedName": "id",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19ReepayCheckoutSheet16EventMessageDataV2idSSSgvp",
+            "mangledName": "$s19ReepayCheckoutSheet16EventMessageDataV2idSSSgvp",
+            "moduleName": "ReepayCheckoutSheet",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet16EventMessageDataV2idSSSgvg",
+                "mangledName": "$s19ReepayCheckoutSheet16EventMessageDataV2idSSSgvg",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet16EventMessageDataV2idSSSgvs",
+                "mangledName": "$s19ReepayCheckoutSheet16EventMessageDataV2idSSSgvs",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet16EventMessageDataV2idSSSgvM",
+                "mangledName": "$s19ReepayCheckoutSheet16EventMessageDataV2idSSSgvM",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "invoice",
+            "printedName": "invoice",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19ReepayCheckoutSheet16EventMessageDataV7invoiceSSSgvp",
+            "mangledName": "$s19ReepayCheckoutSheet16EventMessageDataV7invoiceSSSgvp",
+            "moduleName": "ReepayCheckoutSheet",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet16EventMessageDataV7invoiceSSSgvg",
+                "mangledName": "$s19ReepayCheckoutSheet16EventMessageDataV7invoiceSSSgvg",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet16EventMessageDataV7invoiceSSSgvs",
+                "mangledName": "$s19ReepayCheckoutSheet16EventMessageDataV7invoiceSSSgvs",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet16EventMessageDataV7invoiceSSSgvM",
+                "mangledName": "$s19ReepayCheckoutSheet16EventMessageDataV7invoiceSSSgvM",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "customer",
+            "printedName": "customer",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19ReepayCheckoutSheet16EventMessageDataV8customerSSSgvp",
+            "mangledName": "$s19ReepayCheckoutSheet16EventMessageDataV8customerSSSgvp",
+            "moduleName": "ReepayCheckoutSheet",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet16EventMessageDataV8customerSSSgvg",
+                "mangledName": "$s19ReepayCheckoutSheet16EventMessageDataV8customerSSSgvg",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet16EventMessageDataV8customerSSSgvs",
+                "mangledName": "$s19ReepayCheckoutSheet16EventMessageDataV8customerSSSgvs",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet16EventMessageDataV8customerSSSgvM",
+                "mangledName": "$s19ReepayCheckoutSheet16EventMessageDataV8customerSSSgvM",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "subscription",
+            "printedName": "subscription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19ReepayCheckoutSheet16EventMessageDataV12subscriptionSSSgvp",
+            "mangledName": "$s19ReepayCheckoutSheet16EventMessageDataV12subscriptionSSSgvp",
+            "moduleName": "ReepayCheckoutSheet",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet16EventMessageDataV12subscriptionSSSgvg",
+                "mangledName": "$s19ReepayCheckoutSheet16EventMessageDataV12subscriptionSSSgvg",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet16EventMessageDataV12subscriptionSSSgvs",
+                "mangledName": "$s19ReepayCheckoutSheet16EventMessageDataV12subscriptionSSSgvs",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet16EventMessageDataV12subscriptionSSSgvM",
+                "mangledName": "$s19ReepayCheckoutSheet16EventMessageDataV12subscriptionSSSgvM",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "payment_method",
+            "printedName": "payment_method",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19ReepayCheckoutSheet16EventMessageDataV14payment_methodSSSgvp",
+            "mangledName": "$s19ReepayCheckoutSheet16EventMessageDataV14payment_methodSSSgvp",
+            "moduleName": "ReepayCheckoutSheet",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet16EventMessageDataV14payment_methodSSSgvg",
+                "mangledName": "$s19ReepayCheckoutSheet16EventMessageDataV14payment_methodSSSgvg",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet16EventMessageDataV14payment_methodSSSgvs",
+                "mangledName": "$s19ReepayCheckoutSheet16EventMessageDataV14payment_methodSSSgvs",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet16EventMessageDataV14payment_methodSSSgvM",
+                "mangledName": "$s19ReepayCheckoutSheet16EventMessageDataV14payment_methodSSSgvM",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "error",
+            "printedName": "error",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19ReepayCheckoutSheet16EventMessageDataV5errorSSSgvp",
+            "mangledName": "$s19ReepayCheckoutSheet16EventMessageDataV5errorSSSgvp",
+            "moduleName": "ReepayCheckoutSheet",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet16EventMessageDataV5errorSSSgvg",
+                "mangledName": "$s19ReepayCheckoutSheet16EventMessageDataV5errorSSSgvg",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet16EventMessageDataV5errorSSSgvs",
+                "mangledName": "$s19ReepayCheckoutSheet16EventMessageDataV5errorSSSgvs",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet16EventMessageDataV5errorSSSgvM",
+                "mangledName": "$s19ReepayCheckoutSheet16EventMessageDataV5errorSSSgvM",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EventMessageData",
+                "printedName": "ReepayCheckoutSheet.EventMessageData",
+                "usr": "s:19ReepayCheckoutSheet16EventMessageDataV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19ReepayCheckoutSheet16EventMessageDataV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s19ReepayCheckoutSheet16EventMessageDataV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "ReepayCheckoutSheet",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19ReepayCheckoutSheet16EventMessageDataV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s19ReepayCheckoutSheet16EventMessageDataV6encode2toys7Encoder_p_tKF",
+            "moduleName": "ReepayCheckoutSheet",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:19ReepayCheckoutSheet16EventMessageDataV",
+        "mangledName": "$s19ReepayCheckoutSheet16EventMessageDataV",
+        "moduleName": "ReepayCheckoutSheet",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
         ]
       },
       {
@@ -4539,6 +6303,200 @@
         "printedName": "WebKit",
         "declKind": "Import",
         "moduleName": "ReepayCheckoutSheet"
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ReepayCheckoutSheet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserEvent",
+        "printedName": "UserEvent",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "action",
+            "printedName": "action",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserAction",
+                "printedName": "ReepayCheckoutSheet.UserAction",
+                "usr": "s:19ReepayCheckoutSheet10UserActionO"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19ReepayCheckoutSheet9UserEventV6actionAA0D6ActionOvp",
+            "mangledName": "$s19ReepayCheckoutSheet9UserEventV6actionAA0D6ActionOvp",
+            "moduleName": "ReepayCheckoutSheet",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserAction",
+                    "printedName": "ReepayCheckoutSheet.UserAction",
+                    "usr": "s:19ReepayCheckoutSheet10UserActionO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet9UserEventV6actionAA0D6ActionOvg",
+                "mangledName": "$s19ReepayCheckoutSheet9UserEventV6actionAA0D6ActionOvg",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserAction",
+                    "printedName": "ReepayCheckoutSheet.UserAction",
+                    "usr": "s:19ReepayCheckoutSheet10UserActionO"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet9UserEventV6actionAA0D6ActionOvs",
+                "mangledName": "$s19ReepayCheckoutSheet9UserEventV6actionAA0D6ActionOvs",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet9UserEventV6actionAA0D6ActionOvM",
+                "mangledName": "$s19ReepayCheckoutSheet9UserEventV6actionAA0D6ActionOvM",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timestamp",
+            "printedName": "timestamp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19ReepayCheckoutSheet9UserEventV9timestamp10Foundation4DateVvp",
+            "mangledName": "$s19ReepayCheckoutSheet9UserEventV9timestamp10Foundation4DateVvp",
+            "moduleName": "ReepayCheckoutSheet",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet9UserEventV9timestamp10Foundation4DateVvg",
+                "mangledName": "$s19ReepayCheckoutSheet9UserEventV9timestamp10Foundation4DateVvg",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet9UserEventV9timestamp10Foundation4DateVvs",
+                "mangledName": "$s19ReepayCheckoutSheet9UserEventV9timestamp10Foundation4DateVvs",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet9UserEventV9timestamp10Foundation4DateVvM",
+                "mangledName": "$s19ReepayCheckoutSheet9UserEventV9timestamp10Foundation4DateVvM",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:19ReepayCheckoutSheet9UserEventV",
+        "mangledName": "$s19ReepayCheckoutSheet9UserEventV",
+        "moduleName": "ReepayCheckoutSheet",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -5053,6 +7011,513 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "ReepayCheckoutSheet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EventMessage",
+        "printedName": "EventMessage",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "event",
+            "printedName": "event",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19ReepayCheckoutSheet12EventMessageV5eventSSvp",
+            "mangledName": "$s19ReepayCheckoutSheet12EventMessageV5eventSSvp",
+            "moduleName": "ReepayCheckoutSheet",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet12EventMessageV5eventSSvg",
+                "mangledName": "$s19ReepayCheckoutSheet12EventMessageV5eventSSvg",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet12EventMessageV5eventSSvs",
+                "mangledName": "$s19ReepayCheckoutSheet12EventMessageV5eventSSvs",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet12EventMessageV5eventSSvM",
+                "mangledName": "$s19ReepayCheckoutSheet12EventMessageV5eventSSvM",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "completionUrl",
+            "printedName": "completionUrl",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19ReepayCheckoutSheet12EventMessageV13completionUrlSSSgvp",
+            "mangledName": "$s19ReepayCheckoutSheet12EventMessageV13completionUrlSSSgvp",
+            "moduleName": "ReepayCheckoutSheet",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet12EventMessageV13completionUrlSSSgvg",
+                "mangledName": "$s19ReepayCheckoutSheet12EventMessageV13completionUrlSSSgvg",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet12EventMessageV13completionUrlSSSgvs",
+                "mangledName": "$s19ReepayCheckoutSheet12EventMessageV13completionUrlSSSgvs",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet12EventMessageV13completionUrlSSSgvM",
+                "mangledName": "$s19ReepayCheckoutSheet12EventMessageV13completionUrlSSSgvM",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "data",
+            "printedName": "data",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "ReepayCheckoutSheet.EventMessageData?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EventMessageData",
+                    "printedName": "ReepayCheckoutSheet.EventMessageData",
+                    "usr": "s:19ReepayCheckoutSheet16EventMessageDataV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19ReepayCheckoutSheet12EventMessageV4dataAA0dE4DataVSgvp",
+            "mangledName": "$s19ReepayCheckoutSheet12EventMessageV4dataAA0dE4DataVSgvp",
+            "moduleName": "ReepayCheckoutSheet",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ReepayCheckoutSheet.EventMessageData?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventMessageData",
+                        "printedName": "ReepayCheckoutSheet.EventMessageData",
+                        "usr": "s:19ReepayCheckoutSheet16EventMessageDataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet12EventMessageV4dataAA0dE4DataVSgvg",
+                "mangledName": "$s19ReepayCheckoutSheet12EventMessageV4dataAA0dE4DataVSgvg",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "ReepayCheckoutSheet.EventMessageData?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EventMessageData",
+                        "printedName": "ReepayCheckoutSheet.EventMessageData",
+                        "usr": "s:19ReepayCheckoutSheet16EventMessageDataV"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet12EventMessageV4dataAA0dE4DataVSgvs",
+                "mangledName": "$s19ReepayCheckoutSheet12EventMessageV4dataAA0dE4DataVSgvs",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet12EventMessageV4dataAA0dE4DataVSgvM",
+                "mangledName": "$s19ReepayCheckoutSheet12EventMessageV4dataAA0dE4DataVSgvM",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "sessionState",
+            "printedName": "sessionState",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19ReepayCheckoutSheet12EventMessageV12sessionStateSSSgvp",
+            "mangledName": "$s19ReepayCheckoutSheet12EventMessageV12sessionStateSSSgvp",
+            "moduleName": "ReepayCheckoutSheet",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet12EventMessageV12sessionStateSSSgvg",
+                "mangledName": "$s19ReepayCheckoutSheet12EventMessageV12sessionStateSSSgvg",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet12EventMessageV12sessionStateSSSgvs",
+                "mangledName": "$s19ReepayCheckoutSheet12EventMessageV12sessionStateSSSgvs",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet12EventMessageV12sessionStateSSSgvM",
+                "mangledName": "$s19ReepayCheckoutSheet12EventMessageV12sessionStateSSSgvM",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EventMessage",
+                "printedName": "ReepayCheckoutSheet.EventMessage",
+                "usr": "s:19ReepayCheckoutSheet12EventMessageV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19ReepayCheckoutSheet12EventMessageV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s19ReepayCheckoutSheet12EventMessageV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "ReepayCheckoutSheet",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19ReepayCheckoutSheet12EventMessageV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s19ReepayCheckoutSheet12EventMessageV6encode2toys7Encoder_p_tKF",
+            "moduleName": "ReepayCheckoutSheet",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:19ReepayCheckoutSheet12EventMessageV",
+        "mangledName": "$s19ReepayCheckoutSheet12EventMessageV",
+        "moduleName": "ReepayCheckoutSheet",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Combine",
         "printedName": "Combine",
         "declKind": "Import",
@@ -5158,6 +7623,34 @@
             "declKind": "Func",
             "usr": "s:19ReepayCheckoutSheet0bC0C03getB14EventPublisherAA0beF0CmyF",
             "mangledName": "$s19ReepayCheckoutSheet0bC0C03getB14EventPublisherAA0beF0CmyF",
+            "moduleName": "ReepayCheckoutSheet",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getUserEventPublisher",
+            "printedName": "getUserEventPublisher()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Metatype",
+                "printedName": "ReepayCheckoutSheet.UserEventPublisher.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UserEventPublisher",
+                    "printedName": "ReepayCheckoutSheet.UserEventPublisher",
+                    "usr": "s:19ReepayCheckoutSheet18UserEventPublisherC"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:19ReepayCheckoutSheet0bC0C21getUserEventPublisherAA0efG0CmyF",
+            "mangledName": "$s19ReepayCheckoutSheet0bC0C21getUserEventPublisherAA0efG0CmyF",
             "moduleName": "ReepayCheckoutSheet",
             "declAttributes": [
               "AccessControl"
@@ -5982,19 +8475,19 @@
           },
           {
             "kind": "Var",
-            "name": "completionUrl",
-            "printedName": "completionUrl",
+            "name": "message",
+            "printedName": "message",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "EventMessage",
+                "printedName": "ReepayCheckoutSheet.EventMessage",
+                "usr": "s:19ReepayCheckoutSheet12EventMessageV"
               }
             ],
             "declKind": "Var",
-            "usr": "s:19ReepayCheckoutSheet0B5EventV13completionUrlSSvp",
-            "mangledName": "$s19ReepayCheckoutSheet0B5EventV13completionUrlSSvp",
+            "usr": "s:19ReepayCheckoutSheet0B5EventV7messageAA0D7MessageVvp",
+            "mangledName": "$s19ReepayCheckoutSheet0B5EventV7messageAA0D7MessageVvp",
             "moduleName": "ReepayCheckoutSheet",
             "declAttributes": [
               "HasStorage",
@@ -6010,14 +8503,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "EventMessage",
+                    "printedName": "ReepayCheckoutSheet.EventMessage",
+                    "usr": "s:19ReepayCheckoutSheet12EventMessageV"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19ReepayCheckoutSheet0B5EventV13completionUrlSSvg",
-                "mangledName": "$s19ReepayCheckoutSheet0B5EventV13completionUrlSSvg",
+                "usr": "s:19ReepayCheckoutSheet0B5EventV7messageAA0D7MessageVvg",
+                "mangledName": "$s19ReepayCheckoutSheet0B5EventV7messageAA0D7MessageVvg",
                 "moduleName": "ReepayCheckoutSheet",
                 "implicit": true,
                 "accessorKind": "get"
@@ -6034,14 +8527,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "String",
-                    "printedName": "Swift.String",
-                    "usr": "s:SS"
+                    "name": "EventMessage",
+                    "printedName": "ReepayCheckoutSheet.EventMessage",
+                    "usr": "s:19ReepayCheckoutSheet12EventMessageV"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19ReepayCheckoutSheet0B5EventV13completionUrlSSvs",
-                "mangledName": "$s19ReepayCheckoutSheet0B5EventV13completionUrlSSvs",
+                "usr": "s:19ReepayCheckoutSheet0B5EventV7messageAA0D7MessageVvs",
+                "mangledName": "$s19ReepayCheckoutSheet0B5EventV7messageAA0D7MessageVvs",
                 "moduleName": "ReepayCheckoutSheet",
                 "implicit": true,
                 "accessorKind": "set"
@@ -6058,8 +8551,94 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19ReepayCheckoutSheet0B5EventV13completionUrlSSvM",
-                "mangledName": "$s19ReepayCheckoutSheet0B5EventV13completionUrlSSvM",
+                "usr": "s:19ReepayCheckoutSheet0B5EventV7messageAA0D7MessageVvM",
+                "mangledName": "$s19ReepayCheckoutSheet0B5EventV7messageAA0D7MessageVvM",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "timestamp",
+            "printedName": "timestamp",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Date",
+                "printedName": "Foundation.Date",
+                "usr": "s:10Foundation4DateV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:19ReepayCheckoutSheet0B5EventV9timestamp10Foundation4DateVvp",
+            "mangledName": "$s19ReepayCheckoutSheet0B5EventV9timestamp10Foundation4DateVvp",
+            "moduleName": "ReepayCheckoutSheet",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet0B5EventV9timestamp10Foundation4DateVvg",
+                "mangledName": "$s19ReepayCheckoutSheet0B5EventV9timestamp10Foundation4DateVvg",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Date",
+                    "printedName": "Foundation.Date",
+                    "usr": "s:10Foundation4DateV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet0B5EventV9timestamp10Foundation4DateVvs",
+                "mangledName": "$s19ReepayCheckoutSheet0B5EventV9timestamp10Foundation4DateVvs",
+                "moduleName": "ReepayCheckoutSheet",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:19ReepayCheckoutSheet0B5EventV9timestamp10Foundation4DateVvM",
+                "mangledName": "$s19ReepayCheckoutSheet0B5EventV9timestamp10Foundation4DateVvM",
                 "moduleName": "ReepayCheckoutSheet",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -6346,6 +8925,13 @@
   },
   "ConstValues": [
     {
+      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/Utils\/ViewUtil.swift",
+      "kind": "BooleanLiteral",
+      "offset": 258,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/CheckoutSheet\/CheckoutViewController.swift",
       "kind": "StringLiteral",
       "offset": 198,
@@ -6397,42 +8983,42 @@
     {
       "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/Helpers\/ReepayConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 136,
+      "offset": 232,
       "length": 26,
       "value": "\"http:\/\/localhost:4200\/#\/\""
     },
     {
       "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/Helpers\/ReepayConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 182,
+      "offset": 278,
       "length": 40,
       "value": "\"https:\/\/staging-checkout.reepay.com\/#\/\""
     },
     {
       "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/Helpers\/ReepayConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 245,
+      "offset": 341,
       "length": 32,
       "value": "\"https:\/\/checkout.reepay.com\/#\/\""
     },
     {
       "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/Helpers\/ReepayConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 136,
+      "offset": 232,
       "length": 26,
       "value": "\"http:\/\/localhost:4200\/#\/\""
     },
     {
       "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/Helpers\/ReepayConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 182,
+      "offset": 278,
       "length": 40,
       "value": "\"https:\/\/staging-checkout.reepay.com\/#\/\""
     },
     {
       "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/Helpers\/ReepayConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 245,
+      "offset": 341,
       "length": 32,
       "value": "\"https:\/\/checkout.reepay.com\/#\/\""
     }

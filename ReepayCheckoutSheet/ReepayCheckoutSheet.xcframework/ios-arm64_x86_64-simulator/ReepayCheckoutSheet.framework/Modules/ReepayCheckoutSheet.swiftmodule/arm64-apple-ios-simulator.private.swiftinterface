@@ -29,6 +29,19 @@ public struct CheckoutConfiguration {
   public var checkoutStyle: ReepayCheckoutSheet.CheckoutStyle
   public init?(sessionID: Swift.String, acceptURL: Swift.String? = nil, cancelURL: Swift.String? = nil, checkoutStyle: ReepayCheckoutSheet.CheckoutStyle? = .init())
 }
+public enum SheetDismissable {
+  case always
+  case withAlert
+  case withAlertOnChanges
+  public var toString: Swift.String {
+    get
+  }
+  public static func == (a: ReepayCheckoutSheet.SheetDismissable, b: ReepayCheckoutSheet.SheetDismissable) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
 public class CheckoutEventPublisher {
   public static let initEventPublisher: Combine.PassthroughSubject<ReepayCheckoutSheet.CheckoutEvent, Swift.Never>
   public static let acceptEventPublisher: Combine.PassthroughSubject<ReepayCheckoutSheet.CheckoutEvent, Swift.Never>
@@ -48,6 +61,11 @@ public struct IconStyle {
   public var name: Swift.String?
   public init()
 }
+public class UserEventPublisher {
+  public static let eventPublisher: Combine.PassthroughSubject<ReepayCheckoutSheet.UserEvent, Swift.Never>
+  public init()
+  @objc deinit
+}
 public struct TextStyle {
   public var color: Swift.String
   public var font: UIKit.UIFont
@@ -61,7 +79,7 @@ public struct CheckoutStyle {
   public var sheetBackgroundColor: Swift.String
   public var prefersGrabberVisible: Swift.Bool
   public var hideHeader: Swift.Bool
-  public var dismissable: Swift.Bool
+  public var sheetDismissable: ReepayCheckoutSheet.SheetDismissable
   public var dismissAlertStyle: ReepayCheckoutSheet.AlertStyle?
   public var dismissButtonStyle: ReepayCheckoutSheet.ButtonStyle?
   public init()
@@ -78,6 +96,21 @@ public struct ButtonStyle {
   public init(type: ReepayCheckoutSheet.ButtonType)
   public func getType() -> ReepayCheckoutSheet.ButtonType
 }
+public enum SessionState : Swift.String {
+  case PAYMENT_METHOD_ALREADY_ADDED
+  case INVOICE_ALREADY_PAID
+  case INVOICE_PROCESSING
+  case SUCCESS
+  case SESSION_EXPIRED
+  public var toString: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
 public enum CheckoutState {
   case `init`
   case accept
@@ -93,6 +126,27 @@ public enum CheckoutState {
     get
   }
 }
+public enum UserAction {
+  case cardInputChange
+  public var toString: Swift.String {
+    get
+  }
+  public static func == (a: ReepayCheckoutSheet.UserAction, b: ReepayCheckoutSheet.UserAction) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public struct EventMessageData : Swift.Codable {
+  public var id: Swift.String?
+  public var invoice: Swift.String?
+  public var customer: Swift.String?
+  public var subscription: Swift.String?
+  public var payment_method: Swift.String?
+  public var error: Swift.String?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 public enum TokenValidationError : Swift.Error {
   case invalidSessionToken
   public static func == (a: ReepayCheckoutSheet.TokenValidationError, b: ReepayCheckoutSheet.TokenValidationError) -> Swift.Bool
@@ -100,6 +154,10 @@ public enum TokenValidationError : Swift.Error {
   public var hashValue: Swift.Int {
     get
   }
+}
+public struct UserEvent {
+  public var action: ReepayCheckoutSheet.UserAction
+  public var timestamp: Foundation.Date
 }
 public enum VerticalPosition : Swift.String {
   case above
@@ -122,6 +180,14 @@ public enum Mode : Swift.String {
     get
   }
 }
+public struct EventMessage : Swift.Codable {
+  public var event: Swift.String
+  public var completionUrl: Swift.String?
+  public var data: ReepayCheckoutSheet.EventMessageData?
+  public var sessionState: ReepayCheckoutSheet.SessionState.RawValue?
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
 @available(iOS 15.0, *)
 public class CheckoutSheet {
   public init(configuration: ReepayCheckoutSheet.CheckoutConfiguration)
@@ -130,6 +196,7 @@ public class CheckoutSheet {
   required public init?(coder: Foundation.NSCoder)
   public func getCheckoutViewController() -> UIKit.UIViewController?
   public func getCheckoutEventPublisher() -> ReepayCheckoutSheet.CheckoutEventPublisher.Type
+  public func getUserEventPublisher() -> ReepayCheckoutSheet.UserEventPublisher.Type
   public func present()
   public func dismiss()
   public func destroy()
@@ -146,7 +213,8 @@ public struct AlertStyle {
 }
 public struct CheckoutEvent {
   public var state: ReepayCheckoutSheet.CheckoutState
-  public var completionUrl: Swift.String
+  public var message: ReepayCheckoutSheet.EventMessage
+  public var timestamp: Foundation.Date
 }
 public enum HorizontalPosition : Swift.String {
   case left
@@ -161,8 +229,15 @@ public enum HorizontalPosition : Swift.String {
 extension ReepayCheckoutSheet.ButtonType : Swift.Equatable {}
 extension ReepayCheckoutSheet.ButtonType : Swift.Hashable {}
 extension ReepayCheckoutSheet.ButtonType : Swift.RawRepresentable {}
+extension ReepayCheckoutSheet.SheetDismissable : Swift.Equatable {}
+extension ReepayCheckoutSheet.SheetDismissable : Swift.Hashable {}
+extension ReepayCheckoutSheet.SessionState : Swift.Equatable {}
+extension ReepayCheckoutSheet.SessionState : Swift.Hashable {}
+extension ReepayCheckoutSheet.SessionState : Swift.RawRepresentable {}
 extension ReepayCheckoutSheet.CheckoutState : Swift.Equatable {}
 extension ReepayCheckoutSheet.CheckoutState : Swift.Hashable {}
+extension ReepayCheckoutSheet.UserAction : Swift.Equatable {}
+extension ReepayCheckoutSheet.UserAction : Swift.Hashable {}
 extension ReepayCheckoutSheet.TokenValidationError : Swift.Equatable {}
 extension ReepayCheckoutSheet.TokenValidationError : Swift.Hashable {}
 extension ReepayCheckoutSheet.VerticalPosition : Swift.Equatable {}
