@@ -23,11 +23,11 @@ public enum ButtonType : Swift.String {
   }
 }
 public struct CheckoutConfiguration {
-  public var sessionID: Swift.String
-  public var acceptURL: Swift.String?
-  public var cancelURL: Swift.String?
+  public var sessionId: Swift.String
+  public var forceVippsDesktopFlow: Swift.Bool
+  public var forceSwishDesktopFlow: Swift.Bool
   public var checkoutStyle: ReepayCheckoutSheet.CheckoutStyle
-  public init?(sessionID: Swift.String, acceptURL: Swift.String? = nil, cancelURL: Swift.String? = nil, checkoutStyle: ReepayCheckoutSheet.CheckoutStyle? = .init())
+  public init?(sessionId: Swift.String, forceVippsDesktopFlow: Swift.Bool = false, forceSwishDesktopFlow: Swift.Bool = false, checkoutStyle: ReepayCheckoutSheet.CheckoutStyle? = .init())
 }
 public enum SheetDismissable {
   case always
@@ -182,7 +182,6 @@ public enum Mode : Swift.String {
 }
 public struct EventMessage : Swift.Codable {
   public var event: Swift.String
-  public var completionUrl: Swift.String?
   public var data: ReepayCheckoutSheet.EventMessageData?
   public var sessionState: ReepayCheckoutSheet.SessionState.RawValue?
   public func encode(to encoder: any Swift.Encoder) throws
