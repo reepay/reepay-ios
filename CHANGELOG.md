@@ -4,13 +4,21 @@
 
 - Xcode 14 is [no longer supported by Apple](https://developer.apple.com/news/upcoming-requirements/). Please upgrade to Xcode 15 or later.
 
+## 1.1.2 2024-06-28
+
+### CheckoutSheet
+
+- [Removed] Remove `CheckoutConfiguration.acceptURL` and `CheckoutConfiguration.cancelURL`
+- [Updated] Rename `CheckoutConfiguration.sessionID` to `CheckoutConfiguration.sessionId`
+- [Added] Add `CheckoutConfiguration.forceVippsDesktopFlow` and `CheckoutConfiguration.forceSwishDesktopFlow` parameters
+
 ## 1.1.1 2024-06-25
 
 ### CheckoutSheet
 
-- [Added] `UserEvent` and `UserAction.cardInputChange` including timestamp
-- [Added] SheetDismissable configuration for displaying alert with condition
-- [Added] EventMessage including EventMessageData and timestamp
+- [Added] Add `UserEvent` and `UserAction.cardInputChange` including timestamp
+- [Added] Add SheetDismissable configuration for displaying alert with condition
+- [Added] Add EventMessage including EventMessageData and timestamp
 
 ## 1.1.0 2024-06-03
 
