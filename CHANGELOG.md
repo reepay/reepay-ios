@@ -4,6 +4,13 @@
 
 - Xcode 14 is [no longer supported by Apple](https://developer.apple.com/news/upcoming-requirements/). Please upgrade to Xcode 15 or later.
 
+## 1.1.3 2024-07-01
+
+### CheckoutSheet
+
+- [Added] Add custom font option to `TextStyle`
+- [Updated] Rename `SheetDismissable` to `SheetDismissible`
+
 ## 1.1.2 2024-06-28
 
 ### CheckoutSheet

@@ -702,8 +702,8 @@
       },
       {
         "kind": "TypeDecl",
-        "name": "SheetDismissable",
-        "printedName": "SheetDismissable",
+        "name": "SheetDismissible",
+        "printedName": "SheetDismissible",
         "children": [
           {
             "kind": "Var",
@@ -713,24 +713,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(ReepayCheckoutSheet.SheetDismissable.Type) -> ReepayCheckoutSheet.SheetDismissable",
+                "printedName": "(ReepayCheckoutSheet.SheetDismissible.Type) -> ReepayCheckoutSheet.SheetDismissible",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "SheetDismissable",
-                    "printedName": "ReepayCheckoutSheet.SheetDismissable",
-                    "usr": "s:19ReepayCheckoutSheet0C11DismissableO"
+                    "name": "SheetDismissible",
+                    "printedName": "ReepayCheckoutSheet.SheetDismissible",
+                    "usr": "s:19ReepayCheckoutSheet0C11DismissibleO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "ReepayCheckoutSheet.SheetDismissable.Type",
+                    "printedName": "ReepayCheckoutSheet.SheetDismissible.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "SheetDismissable",
-                        "printedName": "ReepayCheckoutSheet.SheetDismissable",
-                        "usr": "s:19ReepayCheckoutSheet0C11DismissableO"
+                        "name": "SheetDismissible",
+                        "printedName": "ReepayCheckoutSheet.SheetDismissible",
+                        "usr": "s:19ReepayCheckoutSheet0C11DismissibleO"
                       }
                     ]
                   }
@@ -738,8 +738,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:19ReepayCheckoutSheet0C11DismissableO6alwaysyA2CmF",
-            "mangledName": "$s19ReepayCheckoutSheet0C11DismissableO6alwaysyA2CmF",
+            "usr": "s:19ReepayCheckoutSheet0C11DismissibleO6alwaysyA2CmF",
+            "mangledName": "$s19ReepayCheckoutSheet0C11DismissibleO6alwaysyA2CmF",
             "moduleName": "ReepayCheckoutSheet"
           },
           {
@@ -750,24 +750,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(ReepayCheckoutSheet.SheetDismissable.Type) -> ReepayCheckoutSheet.SheetDismissable",
+                "printedName": "(ReepayCheckoutSheet.SheetDismissible.Type) -> ReepayCheckoutSheet.SheetDismissible",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "SheetDismissable",
-                    "printedName": "ReepayCheckoutSheet.SheetDismissable",
-                    "usr": "s:19ReepayCheckoutSheet0C11DismissableO"
+                    "name": "SheetDismissible",
+                    "printedName": "ReepayCheckoutSheet.SheetDismissible",
+                    "usr": "s:19ReepayCheckoutSheet0C11DismissibleO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "ReepayCheckoutSheet.SheetDismissable.Type",
+                    "printedName": "ReepayCheckoutSheet.SheetDismissible.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "SheetDismissable",
-                        "printedName": "ReepayCheckoutSheet.SheetDismissable",
-                        "usr": "s:19ReepayCheckoutSheet0C11DismissableO"
+                        "name": "SheetDismissible",
+                        "printedName": "ReepayCheckoutSheet.SheetDismissible",
+                        "usr": "s:19ReepayCheckoutSheet0C11DismissibleO"
                       }
                     ]
                   }
@@ -775,8 +775,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:19ReepayCheckoutSheet0C11DismissableO9withAlertyA2CmF",
-            "mangledName": "$s19ReepayCheckoutSheet0C11DismissableO9withAlertyA2CmF",
+            "usr": "s:19ReepayCheckoutSheet0C11DismissibleO9withAlertyA2CmF",
+            "mangledName": "$s19ReepayCheckoutSheet0C11DismissibleO9withAlertyA2CmF",
             "moduleName": "ReepayCheckoutSheet"
           },
           {
@@ -787,24 +787,24 @@
               {
                 "kind": "TypeFunc",
                 "name": "Function",
-                "printedName": "(ReepayCheckoutSheet.SheetDismissable.Type) -> ReepayCheckoutSheet.SheetDismissable",
+                "printedName": "(ReepayCheckoutSheet.SheetDismissible.Type) -> ReepayCheckoutSheet.SheetDismissible",
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "SheetDismissable",
-                    "printedName": "ReepayCheckoutSheet.SheetDismissable",
-                    "usr": "s:19ReepayCheckoutSheet0C11DismissableO"
+                    "name": "SheetDismissible",
+                    "printedName": "ReepayCheckoutSheet.SheetDismissible",
+                    "usr": "s:19ReepayCheckoutSheet0C11DismissibleO"
                   },
                   {
                     "kind": "TypeNominal",
                     "name": "Metatype",
-                    "printedName": "ReepayCheckoutSheet.SheetDismissable.Type",
+                    "printedName": "ReepayCheckoutSheet.SheetDismissible.Type",
                     "children": [
                       {
                         "kind": "TypeNominal",
-                        "name": "SheetDismissable",
-                        "printedName": "ReepayCheckoutSheet.SheetDismissable",
-                        "usr": "s:19ReepayCheckoutSheet0C11DismissableO"
+                        "name": "SheetDismissible",
+                        "printedName": "ReepayCheckoutSheet.SheetDismissible",
+                        "usr": "s:19ReepayCheckoutSheet0C11DismissibleO"
                       }
                     ]
                   }
@@ -812,8 +812,8 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:19ReepayCheckoutSheet0C11DismissableO18withAlertOnChangesyA2CmF",
-            "mangledName": "$s19ReepayCheckoutSheet0C11DismissableO18withAlertOnChangesyA2CmF",
+            "usr": "s:19ReepayCheckoutSheet0C11DismissibleO18withAlertOnChangesyA2CmF",
+            "mangledName": "$s19ReepayCheckoutSheet0C11DismissibleO18withAlertOnChangesyA2CmF",
             "moduleName": "ReepayCheckoutSheet"
           },
           {
@@ -829,8 +829,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:19ReepayCheckoutSheet0C11DismissableO8toStringSSvp",
-            "mangledName": "$s19ReepayCheckoutSheet0C11DismissableO8toStringSSvp",
+            "usr": "s:19ReepayCheckoutSheet0C11DismissibleO8toStringSSvp",
+            "mangledName": "$s19ReepayCheckoutSheet0C11DismissibleO8toStringSSvp",
             "moduleName": "ReepayCheckoutSheet",
             "declAttributes": [
               "AccessControl"
@@ -849,8 +849,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19ReepayCheckoutSheet0C11DismissableO8toStringSSvg",
-                "mangledName": "$s19ReepayCheckoutSheet0C11DismissableO8toStringSSvg",
+                "usr": "s:19ReepayCheckoutSheet0C11DismissibleO8toStringSSvg",
+                "mangledName": "$s19ReepayCheckoutSheet0C11DismissibleO8toStringSSvg",
                 "moduleName": "ReepayCheckoutSheet",
                 "accessorKind": "get"
               }
@@ -869,20 +869,20 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "SheetDismissable",
-                "printedName": "ReepayCheckoutSheet.SheetDismissable",
-                "usr": "s:19ReepayCheckoutSheet0C11DismissableO"
+                "name": "SheetDismissible",
+                "printedName": "ReepayCheckoutSheet.SheetDismissible",
+                "usr": "s:19ReepayCheckoutSheet0C11DismissibleO"
               },
               {
                 "kind": "TypeNominal",
-                "name": "SheetDismissable",
-                "printedName": "ReepayCheckoutSheet.SheetDismissable",
-                "usr": "s:19ReepayCheckoutSheet0C11DismissableO"
+                "name": "SheetDismissible",
+                "printedName": "ReepayCheckoutSheet.SheetDismissible",
+                "usr": "s:19ReepayCheckoutSheet0C11DismissibleO"
               }
             ],
             "declKind": "Func",
-            "usr": "s:19ReepayCheckoutSheet0C11DismissableO2eeoiySbAC_ACtFZ",
-            "mangledName": "$s19ReepayCheckoutSheet0C11DismissableO2eeoiySbAC_ACtFZ",
+            "usr": "s:19ReepayCheckoutSheet0C11DismissibleO2eeoiySbAC_ACtFZ",
+            "mangledName": "$s19ReepayCheckoutSheet0C11DismissibleO2eeoiySbAC_ACtFZ",
             "moduleName": "ReepayCheckoutSheet",
             "static": true,
             "implicit": true,
@@ -901,8 +901,8 @@
               }
             ],
             "declKind": "Var",
-            "usr": "s:19ReepayCheckoutSheet0C11DismissableO9hashValueSivp",
-            "mangledName": "$s19ReepayCheckoutSheet0C11DismissableO9hashValueSivp",
+            "usr": "s:19ReepayCheckoutSheet0C11DismissibleO9hashValueSivp",
+            "mangledName": "$s19ReepayCheckoutSheet0C11DismissibleO9hashValueSivp",
             "moduleName": "ReepayCheckoutSheet",
             "implicit": true,
             "accessors": [
@@ -919,8 +919,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19ReepayCheckoutSheet0C11DismissableO9hashValueSivg",
-                "mangledName": "$s19ReepayCheckoutSheet0C11DismissableO9hashValueSivg",
+                "usr": "s:19ReepayCheckoutSheet0C11DismissibleO9hashValueSivg",
+                "mangledName": "$s19ReepayCheckoutSheet0C11DismissibleO9hashValueSivg",
                 "moduleName": "ReepayCheckoutSheet",
                 "implicit": true,
                 "accessorKind": "get"
@@ -946,16 +946,16 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:19ReepayCheckoutSheet0C11DismissableO4hash4intoys6HasherVz_tF",
-            "mangledName": "$s19ReepayCheckoutSheet0C11DismissableO4hash4intoys6HasherVz_tF",
+            "usr": "s:19ReepayCheckoutSheet0C11DismissibleO4hash4intoys6HasherVz_tF",
+            "mangledName": "$s19ReepayCheckoutSheet0C11DismissibleO4hash4intoys6HasherVz_tF",
             "moduleName": "ReepayCheckoutSheet",
             "implicit": true,
             "funcSelfKind": "NonMutating"
           }
         ],
         "declKind": "Enum",
-        "usr": "s:19ReepayCheckoutSheet0C11DismissableO",
-        "mangledName": "$s19ReepayCheckoutSheet0C11DismissableO",
+        "usr": "s:19ReepayCheckoutSheet0C11DismissibleO",
+        "mangledName": "$s19ReepayCheckoutSheet0C11DismissibleO",
         "moduleName": "ReepayCheckoutSheet",
         "declAttributes": [
           "AccessControl"
@@ -2624,6 +2624,86 @@
           {
             "kind": "Constructor",
             "name": "init",
+            "printedName": "init(text:font:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TextStyle",
+                "printedName": "ReepayCheckoutSheet.TextStyle",
+                "usr": "s:19ReepayCheckoutSheet9TextStyleV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIFont",
+                "printedName": "UIKit.UIFont",
+                "usr": "c:objc(cs)UIFont"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19ReepayCheckoutSheet9TextStyleV4text4fontACSS_So6UIFontCtcfc",
+            "mangledName": "$s19ReepayCheckoutSheet9TextStyleV4text4fontACSS_So6UIFontCtcfc",
+            "moduleName": "ReepayCheckoutSheet",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(text:fontName:size:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "TextStyle",
+                "printedName": "ReepayCheckoutSheet.TextStyle",
+                "usr": "s:19ReepayCheckoutSheet9TextStyleV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:19ReepayCheckoutSheet9TextStyleV4text8fontName4sizeACSS_SS14CoreFoundation7CGFloatVSgtcfc",
+            "mangledName": "$s19ReepayCheckoutSheet9TextStyleV4text8fontName4sizeACSS_SS12CoreGraphics7CGFloatVSgtcfc",
+            "moduleName": "ReepayCheckoutSheet",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
             "printedName": "init(text:size:weight:)",
             "children": [
               {
@@ -3153,19 +3233,19 @@
           },
           {
             "kind": "Var",
-            "name": "sheetDismissable",
-            "printedName": "sheetDismissable",
+            "name": "sheetDismissible",
+            "printedName": "sheetDismissible",
             "children": [
               {
                 "kind": "TypeNominal",
-                "name": "SheetDismissable",
-                "printedName": "ReepayCheckoutSheet.SheetDismissable",
-                "usr": "s:19ReepayCheckoutSheet0C11DismissableO"
+                "name": "SheetDismissible",
+                "printedName": "ReepayCheckoutSheet.SheetDismissible",
+                "usr": "s:19ReepayCheckoutSheet0C11DismissibleO"
               }
             ],
             "declKind": "Var",
-            "usr": "s:19ReepayCheckoutSheet0B5StyleV16sheetDismissableAA0cF0Ovp",
-            "mangledName": "$s19ReepayCheckoutSheet0B5StyleV16sheetDismissableAA0cF0Ovp",
+            "usr": "s:19ReepayCheckoutSheet0B5StyleV16sheetDismissibleAA0cF0Ovp",
+            "mangledName": "$s19ReepayCheckoutSheet0B5StyleV16sheetDismissibleAA0cF0Ovp",
             "moduleName": "ReepayCheckoutSheet",
             "declAttributes": [
               "HasStorage",
@@ -3181,14 +3261,14 @@
                 "children": [
                   {
                     "kind": "TypeNominal",
-                    "name": "SheetDismissable",
-                    "printedName": "ReepayCheckoutSheet.SheetDismissable",
-                    "usr": "s:19ReepayCheckoutSheet0C11DismissableO"
+                    "name": "SheetDismissible",
+                    "printedName": "ReepayCheckoutSheet.SheetDismissible",
+                    "usr": "s:19ReepayCheckoutSheet0C11DismissibleO"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19ReepayCheckoutSheet0B5StyleV16sheetDismissableAA0cF0Ovg",
-                "mangledName": "$s19ReepayCheckoutSheet0B5StyleV16sheetDismissableAA0cF0Ovg",
+                "usr": "s:19ReepayCheckoutSheet0B5StyleV16sheetDismissibleAA0cF0Ovg",
+                "mangledName": "$s19ReepayCheckoutSheet0B5StyleV16sheetDismissibleAA0cF0Ovg",
                 "moduleName": "ReepayCheckoutSheet",
                 "implicit": true,
                 "accessorKind": "get"
@@ -3205,14 +3285,14 @@
                   },
                   {
                     "kind": "TypeNominal",
-                    "name": "SheetDismissable",
-                    "printedName": "ReepayCheckoutSheet.SheetDismissable",
-                    "usr": "s:19ReepayCheckoutSheet0C11DismissableO"
+                    "name": "SheetDismissible",
+                    "printedName": "ReepayCheckoutSheet.SheetDismissible",
+                    "usr": "s:19ReepayCheckoutSheet0C11DismissibleO"
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19ReepayCheckoutSheet0B5StyleV16sheetDismissableAA0cF0Ovs",
-                "mangledName": "$s19ReepayCheckoutSheet0B5StyleV16sheetDismissableAA0cF0Ovs",
+                "usr": "s:19ReepayCheckoutSheet0B5StyleV16sheetDismissibleAA0cF0Ovs",
+                "mangledName": "$s19ReepayCheckoutSheet0B5StyleV16sheetDismissibleAA0cF0Ovs",
                 "moduleName": "ReepayCheckoutSheet",
                 "implicit": true,
                 "accessorKind": "set"
@@ -3229,8 +3309,8 @@
                   }
                 ],
                 "declKind": "Accessor",
-                "usr": "s:19ReepayCheckoutSheet0B5StyleV16sheetDismissableAA0cF0OvM",
-                "mangledName": "$s19ReepayCheckoutSheet0B5StyleV16sheetDismissableAA0cF0OvM",
+                "usr": "s:19ReepayCheckoutSheet0B5StyleV16sheetDismissibleAA0cF0OvM",
+                "mangledName": "$s19ReepayCheckoutSheet0B5StyleV16sheetDismissibleAA0cF0OvM",
                 "moduleName": "ReepayCheckoutSheet",
                 "implicit": true,
                 "accessorKind": "_modify"
