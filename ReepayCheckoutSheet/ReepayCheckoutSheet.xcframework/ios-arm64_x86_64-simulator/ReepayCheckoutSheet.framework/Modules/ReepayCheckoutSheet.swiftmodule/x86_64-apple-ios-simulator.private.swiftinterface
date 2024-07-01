@@ -29,14 +29,14 @@ public struct CheckoutConfiguration {
   public var checkoutStyle: ReepayCheckoutSheet.CheckoutStyle
   public init?(sessionId: Swift.String, forceVippsDesktopFlow: Swift.Bool = false, forceSwishDesktopFlow: Swift.Bool = false, checkoutStyle: ReepayCheckoutSheet.CheckoutStyle? = .init())
 }
-public enum SheetDismissable {
+public enum SheetDismissible {
   case always
   case withAlert
   case withAlertOnChanges
   public var toString: Swift.String {
     get
   }
-  public static func == (a: ReepayCheckoutSheet.SheetDismissable, b: ReepayCheckoutSheet.SheetDismissable) -> Swift.Bool
+  public static func == (a: ReepayCheckoutSheet.SheetDismissible, b: ReepayCheckoutSheet.SheetDismissible) -> Swift.Bool
   public func hash(into hasher: inout Swift.Hasher)
   public var hashValue: Swift.Int {
     get
@@ -70,6 +70,8 @@ public struct TextStyle {
   public var color: Swift.String
   public var font: UIKit.UIFont
   public init(text: Swift.String)
+  public init(text: Swift.String, font: UIKit.UIFont)
+  public init(text: Swift.String, fontName: Swift.String, size: CoreFoundation.CGFloat?)
   public init(text: Swift.String, size: CoreFoundation.CGFloat?, weight: UIKit.UIFont.Weight?)
   public func getText() -> Swift.String
 }
@@ -79,7 +81,7 @@ public struct CheckoutStyle {
   public var sheetBackgroundColor: Swift.String
   public var prefersGrabberVisible: Swift.Bool
   public var hideHeader: Swift.Bool
-  public var sheetDismissable: ReepayCheckoutSheet.SheetDismissable
+  public var sheetDismissible: ReepayCheckoutSheet.SheetDismissible
   public var dismissAlertStyle: ReepayCheckoutSheet.AlertStyle?
   public var dismissButtonStyle: ReepayCheckoutSheet.ButtonStyle?
   public init()
@@ -228,8 +230,8 @@ public enum HorizontalPosition : Swift.String {
 extension ReepayCheckoutSheet.ButtonType : Swift.Equatable {}
 extension ReepayCheckoutSheet.ButtonType : Swift.Hashable {}
 extension ReepayCheckoutSheet.ButtonType : Swift.RawRepresentable {}
-extension ReepayCheckoutSheet.SheetDismissable : Swift.Equatable {}
-extension ReepayCheckoutSheet.SheetDismissable : Swift.Hashable {}
+extension ReepayCheckoutSheet.SheetDismissible : Swift.Equatable {}
+extension ReepayCheckoutSheet.SheetDismissible : Swift.Hashable {}
 extension ReepayCheckoutSheet.SessionState : Swift.Equatable {}
 extension ReepayCheckoutSheet.SessionState : Swift.Hashable {}
 extension ReepayCheckoutSheet.SessionState : Swift.RawRepresentable {}
