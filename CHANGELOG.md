@@ -4,6 +4,12 @@
 
 - Xcode 14 is [no longer supported by Apple](https://developer.apple.com/news/upcoming-requirements/). Please upgrade to Xcode 15 or later.
 
+## 1.1.4 2024-07-19
+
+### CheckoutSheet
+
+- [Added] Add completion closure to `dismiss` method
+
 ## 1.1.3 2024-07-01
 
 ### CheckoutSheet
