@@ -7584,17 +7584,50 @@
           {
             "kind": "Function",
             "name": "dismiss",
-            "printedName": "dismiss()",
+            "printedName": "dismiss(animated:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "(() -> ())?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "() -> ()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Void",
+                        "printedName": "()"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Func",
-            "usr": "s:19ReepayCheckoutSheet0bC0C7dismissyyF",
-            "mangledName": "$s19ReepayCheckoutSheet0bC0C7dismissyyF",
+            "usr": "s:19ReepayCheckoutSheet0bC0C7dismiss8animated10completionySb_yycSgtF",
+            "mangledName": "$s19ReepayCheckoutSheet0bC0C7dismiss8animated10completionySb_yycSgtF",
             "moduleName": "ReepayCheckoutSheet",
             "declAttributes": [
               "AccessControl"
@@ -8897,6 +8930,13 @@
       "offset": 181,
       "length": 3,
       "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/CheckoutSheet\/CheckoutSheet.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4217,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/Helpers\/ReepayConfiguration.swift",

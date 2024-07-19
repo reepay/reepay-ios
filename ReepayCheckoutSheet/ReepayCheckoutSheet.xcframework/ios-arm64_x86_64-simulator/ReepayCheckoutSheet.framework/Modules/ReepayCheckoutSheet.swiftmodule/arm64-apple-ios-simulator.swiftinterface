@@ -199,7 +199,7 @@ public class CheckoutSheet {
   public func getCheckoutEventPublisher() -> ReepayCheckoutSheet.CheckoutEventPublisher.Type
   public func getUserEventPublisher() -> ReepayCheckoutSheet.UserEventPublisher.Type
   public func present()
-  public func dismiss()
+  public func dismiss(animated: Swift.Bool = true, completion: (() -> Swift.Void)? = nil)
   public func destroy()
 }
 public struct AlertStyle {
