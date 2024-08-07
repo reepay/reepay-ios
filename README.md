@@ -1,8 +1,3 @@
-
-⚠️ This SDK is under development and not yet officially supported.
-
----
-
 # Reepay iOS SDK
 
 [![CocoaPods](https://img.shields.io/badge/pod-v1.0.0-gray?style=flat&color=0D76B6)](https://cocoapods.org/pods/Reepay)
