@@ -4,6 +4,12 @@
 
 - Xcode 14 is [no longer supported by Apple](https://developer.apple.com/news/upcoming-requirements/). Please upgrade to Xcode 15 or later.
 
+## 1.1.5 2024-08-30
+
+### CheckoutSheet
+
+- [Added] Handle custom URL scheme for app switch from and to Vipps app
+
 ## 1.1.4 2024-07-19
 
 ### CheckoutSheet
