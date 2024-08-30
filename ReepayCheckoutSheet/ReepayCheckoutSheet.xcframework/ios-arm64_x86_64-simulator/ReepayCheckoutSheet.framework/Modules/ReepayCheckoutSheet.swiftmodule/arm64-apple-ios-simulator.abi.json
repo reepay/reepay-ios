@@ -638,9 +638,17 @@
               },
               {
                 "kind": "TypeNominal",
-                "name": "String",
-                "printedName": "Swift.String",
-                "usr": "s:SS"
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -673,8 +681,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:19ReepayCheckoutSheet0B13ConfigurationV9sessionId21forceVippsDesktopFlow0g5SwishiJ013checkoutStyleACSgSS_S2bAA0bM0VSgtcfc",
-            "mangledName": "$s19ReepayCheckoutSheet0B13ConfigurationV9sessionId21forceVippsDesktopFlow0g5SwishiJ013checkoutStyleACSgSS_S2bAA0bM0VSgtcfc",
+            "usr": "s:19ReepayCheckoutSheet0B13ConfigurationV9sessionId21forceVippsDesktopFlow0g5SwishiJ013checkoutStyleACSgSSSg_S2bAA0bM0VSgtcfc",
+            "mangledName": "$s19ReepayCheckoutSheet0B13ConfigurationV9sessionId21forceVippsDesktopFlow0g5SwishiJ013checkoutStyleACSgSSSg_S2bAA0bM0VSgtcfc",
             "moduleName": "ReepayCheckoutSheet",
             "declAttributes": [
               "AccessControl"
@@ -7564,17 +7572,24 @@
           {
             "kind": "Function",
             "name": "present",
-            "printedName": "present()",
+            "printedName": "present(url:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
               }
             ],
             "declKind": "Func",
-            "usr": "s:19ReepayCheckoutSheet0bC0C7presentyyF",
-            "mangledName": "$s19ReepayCheckoutSheet0bC0C7presentyyF",
+            "usr": "s:19ReepayCheckoutSheet0bC0C7present3urlySS_tF",
+            "mangledName": "$s19ReepayCheckoutSheet0bC0C7present3urlySS_tF",
             "moduleName": "ReepayCheckoutSheet",
             "declAttributes": [
               "AccessControl"
@@ -8864,14 +8879,14 @@
     {
       "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/CheckoutSheet\/CheckoutConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 835,
+      "offset": 836,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/CheckoutSheet\/CheckoutConfiguration.swift",
       "kind": "BooleanLiteral",
-      "offset": 872,
+      "offset": 873,
       "length": 5,
       "value": "false"
     },
@@ -8933,8 +8948,15 @@
     },
     {
       "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/CheckoutSheet\/CheckoutSheet.swift",
+      "kind": "StringLiteral",
+      "offset": 1457,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/CheckoutSheet\/CheckoutSheet.swift",
       "kind": "BooleanLiteral",
-      "offset": 4217,
+      "offset": 5563,
       "length": 4,
       "value": "true"
     },

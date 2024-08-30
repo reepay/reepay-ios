@@ -27,7 +27,7 @@ public struct CheckoutConfiguration {
   public var forceVippsDesktopFlow: Swift.Bool
   public var forceSwishDesktopFlow: Swift.Bool
   public var checkoutStyle: ReepayCheckoutSheet.CheckoutStyle
-  public init?(sessionId: Swift.String, forceVippsDesktopFlow: Swift.Bool = false, forceSwishDesktopFlow: Swift.Bool = false, checkoutStyle: ReepayCheckoutSheet.CheckoutStyle? = .init())
+  public init?(sessionId: Swift.String?, forceVippsDesktopFlow: Swift.Bool = false, forceSwishDesktopFlow: Swift.Bool = false, checkoutStyle: ReepayCheckoutSheet.CheckoutStyle? = .init())
 }
 public enum SheetDismissible {
   case always
@@ -198,7 +198,7 @@ public class CheckoutSheet {
   public func getCheckoutViewController() -> UIKit.UIViewController?
   public func getCheckoutEventPublisher() -> ReepayCheckoutSheet.CheckoutEventPublisher.Type
   public func getUserEventPublisher() -> ReepayCheckoutSheet.UserEventPublisher.Type
-  public func present()
+  public func present(url: Swift.String = "")
   public func dismiss(animated: Swift.Bool = true, completion: (() -> Swift.Void)? = nil)
   public func destroy()
 }
