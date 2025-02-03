@@ -4,6 +4,14 @@
 
 - Xcode 14 is [no longer supported by Apple](https://developer.apple.com/news/upcoming-requirements/). Please upgrade to Xcode 15 or later.
 
+
+## 1.1.6 2025-02-03
+
+### CheckoutSheet
+- [Added] Add `Open` CheckoutState
+- [Added] Add `hideFooterCancel` style option
+- [Added] Add JavaScript Bridge channel `ReepayCheckout`
+
 ## 1.1.5 2024-08-30
 
 ### CheckoutSheet
