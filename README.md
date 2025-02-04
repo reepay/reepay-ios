@@ -41,7 +41,7 @@ If you're reading this on GitHub.com, please make sure you are looking at the [t
 
 ## Requirements
 
-The Reepay iOS SDK requires Xcode 14.1 or later and is compatible with iOS apps targeting iOS 15 or newer.
+The Reepay iOS SDK requires Xcode 15 or later and is compatible with iOS apps targeting iOS 15 or newer.
 
 ## Getting started
 
