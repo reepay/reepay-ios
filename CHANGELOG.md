@@ -4,10 +4,18 @@
 
 - Xcode 14 is [no longer supported by Apple](https://developer.apple.com/news/upcoming-requirements/). Please upgrade to Xcode 15 or later.
 
+## 1.1.7 2025-05-27
+
+### CheckoutSheet
+
+- [Added] Add CheckoutSheet optional parameters `force` and `viewController` to `present()`
+- [Added] Set CheckoutViewController `setReturnUrl()` as public
+- [Added] Add `UIApplication` extension with `rootViewController()` and `visibleViewController()`
 
 ## 1.1.6 2025-02-03
 
 ### CheckoutSheet
+
 - [Added] Add `Open` CheckoutState
 - [Added] Add `hideFooterCancel` style option
 - [Added] Add JavaScript Bridge channel `ReepayCheckout`
