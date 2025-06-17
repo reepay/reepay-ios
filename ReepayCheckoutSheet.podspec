@@ -3,7 +3,7 @@ Pod::Spec.new do |s|
 
   # Do not update s.version directly.
   # Update the VERSION file and run ./ci_scripts/update_version.sh
-  s.version              = '1.1.7'
+  s.version              = '1.1.8'
 
   s.summary              = "Reepay's prebuilt Checkout UI"
   s.license              = { type: 'MIT', file: 'LICENSE' }

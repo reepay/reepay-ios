@@ -1,10 +1,11 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1 effective-5.10 (swiftlang-6.1.0.110.21 clang-1700.0.13.3)
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
 // swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name ReepayCheckoutSheet
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import Combine
 import DeveloperToolsSupport
 import Foundation
+import ObjectiveC
 @_exported import ReepayCheckoutSheet
 import Swift
 import SwiftUI
@@ -57,6 +58,12 @@ public class CheckoutEventPublisher {
   public init()
   @objc deinit
 }
+public enum IconStyleConstants {
+  public static let defaultColor: Swift.String
+  public static let defaultPosition: ReepayCheckoutSheet.HorizontalPosition
+  public static let defaultPadding: CoreFoundation.CGFloat
+  public static let defaultSize: CoreFoundation.CGSize
+}
 public struct IconStyle {
   public var color: Swift.String
   public var position: ReepayCheckoutSheet.HorizontalPosition
@@ -70,6 +77,14 @@ public class UserEventPublisher {
   public static let eventPublisher: Combine.PassthroughSubject<ReepayCheckoutSheet.UserEvent, Swift.Never>
   public init()
   @objc deinit
+}
+extension UIKit.UIFont {
+  public var weight: UIKit.UIFont.Weight {
+    get
+  }
+  public var weightName: Swift.String {
+    get
+  }
 }
 extension UIKit.UIApplication {
   @_Concurrency.MainActor @preconcurrency public func rootViewController() -> UIKit.UIViewController?
@@ -88,12 +103,18 @@ extension ReepayCheckoutSheet.CheckoutViewController : UIKit.UIAdaptivePresentat
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLayoutSubviews()
 }
+public enum TextStyleConstants {
+  public static let defaultColor: Swift.String
+  public static let defaultFont: UIKit.UIFont
+  public static let defaultSize: CoreFoundation.CGFloat
+  public static let defaultWeight: UIKit.UIFont.Weight
+}
 public struct TextStyle {
   public var color: Swift.String
   public var font: UIKit.UIFont
   public init(text: Swift.String)
   public init(text: Swift.String, font: UIKit.UIFont)
-  public init(text: Swift.String, fontName: Swift.String, size: CoreFoundation.CGFloat?)
+  public init(text: Swift.String, fontName: Swift.String, size: CoreFoundation.CGFloat = TextStyleConstants.defaultSize)
   public init(text: Swift.String, size: CoreFoundation.CGFloat?, weight: UIKit.UIFont.Weight?)
   public func getText() -> Swift.String
 }
@@ -243,6 +264,7 @@ public struct CheckoutEvent {
   public var state: ReepayCheckoutSheet.CheckoutState
   public var message: ReepayCheckoutSheet.EventMessage
   public var timestamp: Foundation.Date
+  public var metadata: [Swift.String : Any]
 }
 public enum HorizontalPosition : Swift.String {
   case left

@@ -4,6 +4,14 @@
 
 - Xcode 14 is [no longer supported by Apple](https://developer.apple.com/news/upcoming-requirements/). Please upgrade to Xcode 15 or later.
 
+## 1.1.8 2025-06-17
+
+### CheckoutSheet
+
+- [Added] Add WCAG 2.2 compliance
+- [Added] Add TextStyle font `weight` and `weightName` attributes
+- [Added] Add `metadata` attribute to `CheckoutEvent` containing e.g. iOS text font fize `scaleFactor`
+
 ## 1.1.7 2025-05-27
 
 ### CheckoutSheet
