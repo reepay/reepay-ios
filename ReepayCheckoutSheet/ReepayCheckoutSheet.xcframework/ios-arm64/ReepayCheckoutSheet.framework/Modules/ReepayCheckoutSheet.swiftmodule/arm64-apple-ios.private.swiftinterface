@@ -244,8 +244,10 @@ public class CheckoutSheet {
   @available(*, unavailable)
   required public init?(coder: Foundation.NSCoder)
   public func getCheckoutViewController() -> ReepayCheckoutSheet.CheckoutViewController?
+  public func getCheckoutWebView() -> WebKit.WKWebView?
   public func getCheckoutEventPublisher() -> ReepayCheckoutSheet.CheckoutEventPublisher.Type
   public func getUserEventPublisher() -> ReepayCheckoutSheet.UserEventPublisher.Type
+  public func getPendingReturnUrl() -> Swift.String?
   public func present(url: Swift.String = "", force: Swift.Bool = false, viewController: UIKit.UIViewController? = UIApplication.shared.rootViewController())
   public func dismiss(animated: Swift.Bool = true, completion: (() -> Swift.Void)? = nil)
   public func destroy()

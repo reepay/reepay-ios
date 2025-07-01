@@ -2,7 +2,13 @@
 
 ### All
 
-- Xcode 14 is [no longer supported by Apple](https://developer.apple.com/news/upcoming-requirements/). Please upgrade to Xcode 15 or later.
+- Xcode 15 is [no longer supported by Apple](https://developer.apple.com/news/upcoming-requirements/). Please upgrade to Xcode 16 or later.
+
+### CheckoutSheet
+
+## 1.1.10 2025-07-01
+
+- [Updated] Load WKWebView URL on Main Thread if not already on Main Thread
 
 ## 1.1.9 2025-06-18
 
