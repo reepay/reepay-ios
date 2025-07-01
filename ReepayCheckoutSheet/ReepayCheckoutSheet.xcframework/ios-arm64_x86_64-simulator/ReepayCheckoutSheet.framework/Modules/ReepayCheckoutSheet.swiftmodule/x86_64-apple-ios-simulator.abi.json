@@ -10556,6 +10556,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "ReepayCheckoutSheet",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "ObjectiveC",
         "printedName": "ObjectiveC",
         "declKind": "Import",
@@ -11106,7 +11116,7 @@
     {
       "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/CheckoutSheet\/CheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8519,
+      "offset": 8948,
       "length": 2,
       "value": "10"
     },
@@ -11198,13 +11208,13 @@
       "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/Helpers\/ReepayConfiguration.swift",
       "kind": "StringLiteral",
       "offset": 219,
-      "length": 44,
-      "value": "\"https:\/\/jlcb19j3-4200.euw.devtunnels.ms\/#\/\""
+      "length": 40,
+      "value": "\"https:\/\/staging-checkout.reepay.com\/#\/\""
     },
     {
       "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/Helpers\/ReepayConfiguration.swift",
       "kind": "StringLiteral",
-      "offset": 286,
+      "offset": 282,
       "length": 32,
       "value": "\"https:\/\/checkout.reepay.com\/#\/\""
     },
