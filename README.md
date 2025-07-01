@@ -6,7 +6,7 @@
 
 The Reepay iOS SDK makes it seamless to build a checkout payment experience in your iOS app. We provide a checkout window with multiple payment methods, and you can customize it to fit your app's look and feel.
 
-Get started with our [example projects](#examples), or [📘 browse the SDK reference](https://docs.reepay.com/reference/reference-introduction).
+Get started with our [example projects](#examples), or [📘 browse the SDK reference](https://docs.frisbii.com/reference/introduction).
 
 # Table of contents
 
@@ -23,11 +23,11 @@ Get started with our [example projects](#examples), or [📘 browse the SDK refe
 
 ## Features
 
-- **Payment security**: We are [PCI compliant](https://docs.reepay.com/docs/pci-certified), which makes it simple for you to collect sensitive data such as credit card numbers. This means the sensitive data is sent directly to Reepay instead of passing through your server.
+- **Payment security**: We are [PCI compliant](https://docs.frisbii.com/docs/pci-certified), which makes it simple for you to collect sensitive data such as credit card numbers. This means the sensitive data is sent directly to Reepay instead of passing through your server.
 
-- **Apple Pay**: We provide a [seamless integration with Apple Pay](https://docs.reepay.com/reference/apple-pay) through Reepay Checkout.
+- **Apple Pay**: We provide a [seamless integration with Apple Pay](https://docs.frisbii.com/docs/apple-pay) through Reepay Checkout.
 
-- **SCA-ready**: The SDK automatically performs native 3D Secure authentication to comply with [Strong Customer Authentication](https://docs.reepay.com/reference/strong-customer-authentication) regulation in Europe.
+- **SCA-ready**: The SDK automatically performs native 3D Secure authentication to comply with [Strong Customer Authentication](https://docs.frisbii.com/docs/strong-customer-authentication) regulation in Europe.
 
 ## Releases
 
@@ -47,7 +47,7 @@ The Reepay iOS SDK requires Xcode 15 or later and is compatible with iOS apps ta
 
 ### Integration
 
-Get started by checking out our example projects below, or [📘 browse the SDK reference](https://optimize-docs.billwerk.com/docs/checkout-sdk-for-ios) for fine-grained documentation of all the classes and methods in the SDK.
+Get started by checking out our example projects below, or [📘 browse the SDK reference](https://docs.frisbii.com/docs/checkout-sdk-for-ios) for fine-grained documentation of all the classes and methods in the SDK.
 
 ### Examples
 
