@@ -2,7 +2,7 @@
 
 ### All
 
-- Xcode 14 is [no longer supported by Apple](https://developer.apple.com/news/upcoming-requirements/). Please upgrade to Xcode 15 or later.
+- Xcode 15 is [no longer supported by Apple](https://developer.apple.com/news/upcoming-requirements/). Please upgrade to Xcode 16 or later.
 
 ### CheckoutSheet
 
