@@ -97,7 +97,7 @@ extension ReepayCheckoutSheet.CheckoutViewController : UIKit.UIAdaptivePresentat
 @_Concurrency.MainActor @preconcurrency public class CheckoutViewController : UIKit.UIViewController {
   @objc deinit
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidLoad()
-  @_Concurrency.MainActor @preconcurrency public func setReturnUrl(url: Swift.String)
+  @_Concurrency.MainActor @preconcurrency public func setReturnUrl(url: Swift.String, cachePolicy: Foundation.URLRequest.CachePolicy = .useProtocolCachePolicy)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewWillDisappear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public func viewDidDisappear(_ animated: Swift.Bool)

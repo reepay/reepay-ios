@@ -2864,7 +2864,7 @@
           {
             "kind": "Function",
             "name": "setReturnUrl",
-            "printedName": "setReturnUrl(url:)",
+            "printedName": "setReturnUrl(url:cachePolicy:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -2876,11 +2876,18 @@
                 "name": "String",
                 "printedName": "Swift.String",
                 "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CachePolicy",
+                "printedName": "Foundation.NSURLRequest.CachePolicy",
+                "hasDefaultArg": true,
+                "usr": "c:@E@NSURLRequestCachePolicy"
               }
             ],
             "declKind": "Func",
-            "usr": "s:19ReepayCheckoutSheet0B14ViewControllerC12setReturnUrl3urlySS_tF",
-            "mangledName": "$s19ReepayCheckoutSheet0B14ViewControllerC12setReturnUrl3urlySS_tF",
+            "usr": "s:19ReepayCheckoutSheet0B14ViewControllerC12setReturnUrl3url11cachePolicyySS_So017NSURLRequestCacheK0VtF",
+            "mangledName": "$s19ReepayCheckoutSheet0B14ViewControllerC12setReturnUrl3url11cachePolicyySS_So017NSURLRequestCacheK0VtF",
             "moduleName": "ReepayCheckoutSheet",
             "declAttributes": [
               "Preconcurrency",
@@ -11116,7 +11123,7 @@
     {
       "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/CheckoutSheet\/CheckoutViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 8948,
+      "offset": 9166,
       "length": 2,
       "value": "10"
     },
