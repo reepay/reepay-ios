@@ -11072,161 +11072,161 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/CheckoutSheet\/CheckoutConfiguration.swift",
+      "filePath": "<REDACTED>",
       "kind": "BooleanLiteral",
       "offset": 836,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/CheckoutSheet\/CheckoutConfiguration.swift",
+      "filePath": "<REDACTED>",
       "kind": "BooleanLiteral",
       "offset": 873,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/CheckoutSheet\/IconStyle.swift",
+      "filePath": "<REDACTED>",
       "kind": "StringLiteral",
       "offset": 204,
       "length": 9,
       "value": "\"#DD636B\""
     },
     {
-      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/CheckoutSheet\/IconStyle.swift",
+      "filePath": "<REDACTED>",
       "kind": "FloatLiteral",
       "offset": 336,
       "length": 3,
       "value": "5.0"
     },
     {
-      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/CheckoutSheet\/IconStyle.swift",
+      "filePath": "<REDACTED>",
       "kind": "IntegerLiteral",
       "offset": 397,
       "length": 2,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/CheckoutSheet\/IconStyle.swift",
+      "filePath": "<REDACTED>",
       "kind": "IntegerLiteral",
       "offset": 409,
       "length": 2,
       "value": "25"
     },
     {
-      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/Utils\/ViewUtil.swift",
+      "filePath": "<REDACTED>",
       "kind": "BooleanLiteral",
       "offset": 258,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/CheckoutSheet\/CheckoutViewController.swift",
+      "filePath": "<REDACTED>",
       "kind": "IntegerLiteral",
       "offset": 9166,
       "length": 2,
       "value": "10"
     },
     {
-      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/CheckoutSheet\/TextStyle.swift",
+      "filePath": "<REDACTED>",
       "kind": "StringLiteral",
       "offset": 204,
       "length": 9,
       "value": "\"#212529\""
     },
     {
-      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/CheckoutSheet\/TextStyle.swift",
+      "filePath": "<REDACTED>",
       "kind": "FloatLiteral",
       "offset": 348,
       "length": 4,
       "value": "17.0"
     },
     {
-      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/Categories\/UIButton+IconTextButton.swift",
+      "filePath": "<REDACTED>",
       "kind": "FloatLiteral",
       "offset": 4480,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/Categories\/UIButton+IconTextButton.swift",
+      "filePath": "<REDACTED>",
       "kind": "FloatLiteral",
       "offset": 4486,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/Categories\/UIButton+Circular.swift",
+      "filePath": "<REDACTED>",
       "kind": "FloatLiteral",
       "offset": 391,
       "length": 3,
       "value": "0.5"
     },
     {
-      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/Categories\/UIButton+Circular.swift",
+      "filePath": "<REDACTED>",
       "kind": "FloatLiteral",
       "offset": 397,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/Categories\/UIColor+HEX.swift",
+      "filePath": "<REDACTED>",
       "kind": "FloatLiteral",
       "offset": 181,
       "length": 3,
       "value": "1.0"
     },
     {
-      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/CheckoutSheet\/CheckoutSheet.swift",
+      "filePath": "<REDACTED>",
       "kind": "StringLiteral",
       "offset": 2156,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/CheckoutSheet\/CheckoutSheet.swift",
+      "filePath": "<REDACTED>",
       "kind": "BooleanLiteral",
       "offset": 2182,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/CheckoutSheet\/CheckoutSheet.swift",
+      "filePath": "<REDACTED>",
       "kind": "StringLiteral",
       "offset": 4490,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/CheckoutSheet\/CheckoutSheet.swift",
+      "filePath": "<REDACTED>",
       "kind": "BooleanLiteral",
       "offset": 6656,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/Helpers\/CheckoutEvent.swift",
+      "filePath": "<REDACTED>",
       "kind": "Dictionary",
       "offset": 394,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/Helpers\/ReepayConfiguration.swift",
+      "filePath": "<REDACTED>",
       "kind": "StringLiteral",
       "offset": 219,
       "length": 40,
-      "value": "\"https:\/\/staging-checkout.reepay.com\/#\/\""
+      "value": "\"https://staging-checkout.reepay.com/#/\""
     },
     {
-      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/Helpers\/ReepayConfiguration.swift",
+      "filePath": "<REDACTED>",
       "kind": "StringLiteral",
       "offset": 282,
       "length": 32,
-      "value": "\"https:\/\/checkout.reepay.com\/#\/\""
+      "value": "\"https://checkout.reepay.com/#/\""
     },
     {
-      "filePath": "\/Users\/johnny\/Documents\/GitHub\/reepay-ios-checkout-sheet\/ReepayCheckoutSheet\/Source\/Categories\/UIButton+Stylable.swift",
+      "filePath": "<REDACTED>",
       "kind": "IntegerLiteral",
       "offset": 170,
       "length": 1,
