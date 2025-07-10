@@ -6,6 +6,12 @@
 
 ### CheckoutSheet
 
+## 1.1.11 2025-07-03
+
+- [Added] Add cachePolicy parameter to setReturnUrl() method
+
+### CheckoutSheet
+
 ## 1.1.10 2025-07-01
 
 - [Updated] Load WKWebView URL on Main Thread if not already on Main Thread
