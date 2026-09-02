@@ -7,5 +7,4 @@ framework module ReepayCheckoutSheet {
 
 module ReepayCheckoutSheet.Swift {
   header "ReepayCheckoutSheet-Swift.h"
-  requires objc
 }

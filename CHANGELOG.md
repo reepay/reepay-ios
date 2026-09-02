@@ -2,9 +2,13 @@
 
 ### All
 
-- Xcode 15 is [no longer supported by Apple](https://developer.apple.com/news/upcoming-requirements/). Please upgrade to Xcode 16 or later.
+- Xcode 15 and 16 are [no longer supported by Apple](https://developer.apple.com/news/upcoming-requirements/). Please upgrade to Xcode 26 or later.
 
 ### CheckoutSheet
+
+# 1.1.12 2026-06-09
+- [Added] Add `shouldHandleNavigation` property to `WKWebView`
+- [Added] Add `focusRingColor` and `focusRingWidth` properties to `ButtonStyle`
 
 ## 1.1.11 2025-07-03
 
